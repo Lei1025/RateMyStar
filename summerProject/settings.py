@@ -25,7 +25,7 @@ SECRET_KEY = 'y2um7tayh&3^#_4*dw%z-8j+=(26-ebil2h^2oai4hq$cr)5(a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','lei6745.pythonanywhere.com']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rating.apps.RatingConfig',
-    'bootstrap3'
+
 ]
 
 MIDDLEWARE = [

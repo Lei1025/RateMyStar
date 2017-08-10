@@ -483,18 +483,22 @@ right:15%;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-.banner_desc {
+
+.banner_desc{
 display: block;
 z-index: 2;
 text-shadow: none;
 margin: 0;
 max-width: none;
 position: absolute;
-top:90.05%;
+bottom:0%;
 right: 0;
 width: 100%;
 padding: 10px 15px 5px;
 background: rgba(3, 3, 3, 0.45);
+}
+.banner_desc p {
+	margin: 0px;
 }
 .grid_1{
 	padding-right:0!important;
@@ -543,7 +547,7 @@ i.icon3{
 }
 .content{
 	background:#edeff0;
-	padding:0em;
+	padding:2em;
 }
 .search {
 border-top: none;
