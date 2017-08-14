@@ -12,5 +12,6 @@ urlpatterns = [
     url(r'^$',views.index),
     url(r'^forgotpassword',views.forgot_password),
     url(r'^123', views.index_content),
+    url(r'^detial',views.detail)
 
 ]

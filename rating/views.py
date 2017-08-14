@@ -66,3 +66,6 @@ def forgot_password(request):
 
 def index_content(request):
     return render(request,'Puzzles/index-content.html')
+
+def detail(request):
+    return render(request,'single.html')

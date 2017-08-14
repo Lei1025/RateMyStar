@@ -279,6 +279,10 @@ body {
   color: #333;
   background-color: #fff;
 }
+
+p{
+ font-size:16px;
+}
 input,
 button,
 select,

@@ -35,6 +35,7 @@ if settings.DEBUG:
         url(r'^(?P<path>js.*)$', views.serve),
         url(r'^(?P<path>a_data.*)$', views.serve),
         url(r'^(?P<path>font.*)$', views.serve),
+        url(r'^(?P<path>review.*)$', views.serve),
 
        # url(r'^css/(?P<path>.*)$', views.serve,{ 'document_root': '/static/css'}),
         #url(r'^js/(?P<path>.*)$', views.serve),
