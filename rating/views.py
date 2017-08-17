@@ -31,7 +31,7 @@ def register(request):
         if password!=password2:
             return render(request,'register.html',{'error':'Passwords do not match!'})
         elif password==password2:
-            User.objects.create_user(username=firstname+lastname,password=password,first_name=firstname,last_name=lastname,email=email)
+            User.objects.create_user(username=firstname+'_'+lastname,password=password,first_name=firstname,last_name=lastname,email=email)
             return render(request,'index.html')
     else:
         return render(request,'register.html')
@@ -68,4 +68,8 @@ def index_content(request):
     return render(request,'Puzzles/index-content.html')
 
 def detail(request):
-    return render(request,'single.html')
+    return render(request, 'detail.html')
+
+def category(request):
+    direction=['right','right','left','left']
+    return render(request,'category.html',{'direction':direction})

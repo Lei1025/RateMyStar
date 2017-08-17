@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stars</title>
+    <link rel="stylesheet" id="fontello-css" href="a_data/fontello.css" type="text/css" media="all">
+<style>
+
+
+.theme_regular p, .theme_regular td, .theme_regular th, .theme_regular input, .theme_regular textarea, .theme_regular div, .theme_regular .theme_text {
+    color: #666666;
+}
+    .reviews_summary .criteria_summary {
+    position: relative;
+}
+    .reviews_summary .criteria_stars {
+    top: 4px;
+}
+    .criteria_row .criteria_stars {
+    display: inline-block;
+    font-size: 22px;
+    white-space: nowrap;
+    position: relative;
+    vertical-align: top;
+}
+    .reviews_summary .criteria_stars .stars_on,
+    .reviews_summary .criteria_stars .stars_off {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    min-height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+    .criteria_row,
+    .criteria_stars {
+    font-size: 22px;
+    white-space: nowrap;
+}
+
+    .reviews_summary,
+    .criteria_stars,
+    .stars_off,
+    .theme_stars {
+    color: rgba(128,128,128,0.8);
+}
+    .theme_stars_on {
+    color: #ffc800;
+}
+    .criteria_row,
+    .criteria_stars
+    .theme_stars::before {
+    content: '\e81d';
+    font-family: Fontello;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    margin-right: 0px;
+
+}
+    .blog_reviews,
+    .criteria_row .criteria_stars {
+    display: inline-block;
+    width: 136px;
+    height: 28px;
+    overflow:visible;
+}
+</style>
+</head>
+
+<body>
+    <div class="reviews_summary blog_reviews ">
+        <div class="criteria_summary criteria_row">
+            <span class="criteria_stars">
+					<span class="stars_off" >
+                        <span class="theme_stars"></span>
+                        <span class="theme_stars"></span>
+                        <span class="theme_stars"></span>
+                        <span class="theme_stars"></span>
+                        <span class="theme_stars"></span>
+                    </span>
+					<span class="stars_on" style="width:50%">
+                        <span class="theme_stars theme_stars_on"></span>
+                        <span class="theme_stars theme_stars_on"></span>
+                        <span class="theme_stars theme_stars_on"></span>
+                        <span class="theme_stars theme_stars_on"></span>
+                        <span class="theme_stars theme_stars_on"></span>
+                    </span>
+            </span>
+        </div>
+</div>
+</div>
+
+
+
+</body>
+</html>

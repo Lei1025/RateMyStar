@@ -126,3 +126,6 @@ STATICFILES_DIRS = (
     os.path.join(os.path.dirname(__file__), './static/').replace('\\','/'),
 )
 '''
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'rating/media/').replace('\\', '/')     #设置静态文件路径为主目录下的media文件夹
+MEDIA_URL = '/media/'                                                 #url映射
