@@ -4,39 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db158db0-b27f-4243-8349-19b057518bcb" name="Default" comment="margin changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/profile/2016-08-19_030928.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/profile/21906042543_ee843f6ec7_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/rating/media/article/banner/21906042543_ee843f6ec7_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/rating/media/article/banner/22378232567_25fd5598a2_o-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/rating/media/article/thumbnail/21904516994_cd1cc5e863_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/rating/media/article/thumbnail/21904517354_0cc7e14f90_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/rating/media/profile/21906042543_ee843f6ec7_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/rating/media/upload/22339295650_941f49ab9b_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/upload/21904523204_bf11af3857_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/stars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/crop.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rating/migrations/0002_auto_20170817_1035.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rating/migrations/0003_auto_20170803_2338.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rating/templates/movie.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rating/templates/single.html" afterPath="$PROJECT_DIR$/rating/templates/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+    <list default="true" id="db158db0-b27f-4243-8349-19b057518bcb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rating/migrations/0002_auto_20170803_2329.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/admin.py" afterPath="$PROJECT_DIR$/rating/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/rating/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/models.py" afterPath="$PROJECT_DIR$/rating/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/css/style.css" afterPath="$PROJECT_DIR$/rating/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/b/showimg.html" afterPath="$PROJECT_DIR$/rating/templates/b/showimg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/b/uploadimg.html" afterPath="$PROJECT_DIR$/rating/templates/b/uploadimg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/css/style.css" afterPath="$PROJECT_DIR$/rating/templates/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/forgotpassword.html" afterPath="$PROJECT_DIR$/rating/templates/forgotpassword.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/index.html" afterPath="$PROJECT_DIR$/rating/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/login.html" afterPath="$PROJECT_DIR$/rating/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/register.html" afterPath="$PROJECT_DIR$/rating/templates/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/urls.py" afterPath="$PROJECT_DIR$/rating/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/views.py" afterPath="$PROJECT_DIR$/rating/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/summerProject/settings.py" afterPath="$PROJECT_DIR$/summerProject/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,7 +47,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rating/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="703">
               <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -86,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rating_score" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rating_score" pinned="false" current-in-tab="true">
         <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_score">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -104,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rating_r_user" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rating_r_user" pinned="false" current-in-tab="false">
         <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_r_user">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -301,10 +271,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="summerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="summerProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="summerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="summerProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="summerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="summerProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="summerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="summerProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="summerProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="summerProject" type="462c0819:PsiDirectoryNode" />
+              <item name="summerProject" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="summerProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -318,6 +313,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -441,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502700700216</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="build database">
+      <created>1502988343244</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1502988343244</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -468,8 +471,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34724092" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@summerProject" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.351752" sideWeight="0.4801444" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37893984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19484241" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3846705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19484241" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2762803" sideWeight="0.52936965" order="3" side_tool="false" content_ui="tabs" />
@@ -544,7 +547,8 @@
       <path value="C:\Users\刘磊\Desktop\Python labs\summerProject\RateMyStar" />
     </ignored-roots>
     <MESSAGE value="margin changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="margin changes" />
+    <MESSAGE value="build database" />
+    <option name="LAST_COMMIT_MESSAGE" value="build database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -833,7 +837,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rating/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="703">
           <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -860,18 +864,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_score">
+    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_r_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_r_user">
+    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_score">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
