@@ -30,17 +30,17 @@ urlpatterns = [
 #urlpatterns += staticfiles_urlpatterns()
 if settings.DEBUG:
     urlpatterns += [
-        url(r'(?P<path>css.*)$', views.serve),
-        url(r'(?P<path>images.*)$', views.serve),
-        url(r'(?P<path>js.*)$', views.serve),
-        url(r'(?P<path>a_data.*)$', views.serve),
-        url(r'(?P<path>font.*)$', views.serve),
-        url(r'(?P<path>review.*)$', views.serve),
-
+        url(r'^(?P<path>css.*)$', views.serve),
+        url(r'^(?P<path>images.*)$', views.serve),
+        url(r'^(?P<path>js.*)$', views.serve),
+        url(r'^(?P<path>review.*)$', views.serve),
+        url(r'^(?P<path>font.*)$', views.serve),
+        url(r'^(?P<path>a_data.*)$', views.serve),
+    ]
        # url(r'^css/(?P<path>.*)$', views.serve,{ 'document_root': '/static/css'}),
         #url(r'^js/(?P<path>.*)$', views.serve),
         #url(r'^images/(?P<path>.*)$', views.serve),
-    ]
+
 #urlpatterns = [patterns(
  #   url( r'^static/(?P<path>.*)$', 'django.views.static.serve',{ 'document_root': settings.STATIC_ROOT })
     #如果没有建static文件夹，而是直接在根目录下建立的JS,CSS和Images文件夹，就将下面的三行代码注释去掉，删除上方的代码
