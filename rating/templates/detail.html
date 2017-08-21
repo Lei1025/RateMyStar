@@ -39,7 +39,10 @@
 	      </div>
 	   <div class="content">
       	   <div class="movie_top">
-      	         <div class="col-md-9">
+      	{% if error %} }
+           <p>{{ error }}</p>
+           {% else%}
+               <div class="col-md-9">
                         <img class="single-banner" src={{ article.banner.url }} alt="">
 
 
@@ -78,6 +81,7 @@
 					           <input name="submit" type="submit" id="submit" value="Login or Sign up" ><br>
 					        </div>
 							<div class="clearfix"></div>
+                        </form>
                  {% endif %}
 		                <div class="single">
 		                <h1>{{ count }} Comments</h1>
@@ -96,6 +100,7 @@
 			  			</ul>
                       </div>
                       </div>
+          {% endif %}
                       <div class="col-md-3">
                       	<div class="movie_img"><div class="grid_2">
 							<img src="images/pic6.jpg" class="img-responsive" alt="">

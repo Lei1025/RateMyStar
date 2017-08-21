@@ -2,9 +2,194 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="932721f2-bf9a-41d7-9430-b781e5910b4c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/summerProject.iml" afterPath="$PROJECT_DIR$/.idea/summerProject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/admin.py" afterPath="$PROJECT_DIR$/rating/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/apps.py" afterPath="$PROJECT_DIR$/rating/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/rating/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/migrations/0002_auto_20170820_1413.py" afterPath="$PROJECT_DIR$/rating/migrations/0002_auto_20170820_1413.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/migrations/0003_auto_20170820_1422.py" afterPath="$PROJECT_DIR$/rating/migrations/0003_auto_20170820_1422.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/migrations/0004_auto_20170820_1437.py" afterPath="$PROJECT_DIR$/rating/migrations/0004_auto_20170820_1437.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/migrations/0005_auto_20170820_1459.py" afterPath="$PROJECT_DIR$/rating/migrations/0005_auto_20170820_1459.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/models.py" afterPath="$PROJECT_DIR$/rating/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/_contact_form.js" afterPath="$PROJECT_DIR$/rating/static/a_data/_contact_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/_front.js" afterPath="$PROJECT_DIR$/rating/static/a_data/_front.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/_reviews.js" afterPath="$PROJECT_DIR$/rating/static/a_data/_reviews.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/_utils.js" afterPath="$PROJECT_DIR$/rating/static/a_data/_utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/add-to-cart.js" afterPath="$PROJECT_DIR$/rating/static/a_data/add-to-cart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/animation.css" afterPath="$PROJECT_DIR$/rating/static/a_data/animation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/badge_code_v2.js" afterPath="$PROJECT_DIR$/rating/static/a_data/badge_code_v2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/bbpress-style.css" afterPath="$PROJECT_DIR$/rating/static/a_data/bbpress-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/blue.css" afterPath="$PROJECT_DIR$/rating/static/a_data/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/buddy-style.css" afterPath="$PROJECT_DIR$/rating/static/a_data/buddy-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/buddypress.js" afterPath="$PROJECT_DIR$/rating/static/a_data/buddypress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/core.js" afterPath="$PROJECT_DIR$/rating/static/a_data/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/css.css" afterPath="$PROJECT_DIR$/rating/static/a_data/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/css_002.css" afterPath="$PROJECT_DIR$/rating/static/a_data/css_002.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/dark.css" afterPath="$PROJECT_DIR$/rating/static/a_data/dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/draggable.js" afterPath="$PROJECT_DIR$/rating/static/a_data/draggable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/fontello.css" afterPath="$PROJECT_DIR$/rating/static/a_data/fontello.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/fontello.css.backup" afterPath="$PROJECT_DIR$/rating/static/a_data/fontello.css.backup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery-migrate.js" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery-migrate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery.css" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery.js" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery_002.js" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery_002.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery_003.js" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery_003.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery_004.js" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery_004.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery_005.js" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery_005.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery_006.js" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery_006.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery_007.js" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery_007.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery_008.js" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery_008.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/jquery_009.js" afterPath="$PROJECT_DIR$/rating/static/a_data/jquery_009.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/mediaelement-and-player.js" afterPath="$PROJECT_DIR$/rating/static/a_data/mediaelement-and-player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/mediaelementplayer.css" afterPath="$PROJECT_DIR$/rating/static/a_data/mediaelementplayer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/mouse.js" afterPath="$PROJECT_DIR$/rating/static/a_data/mouse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/prettyPhoto.css" afterPath="$PROJECT_DIR$/rating/static/a_data/prettyPhoto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/regular.css" afterPath="$PROJECT_DIR$/rating/static/a_data/regular.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/responsive.css" afterPath="$PROJECT_DIR$/rating/static/a_data/responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/shortcodes.css" afterPath="$PROJECT_DIR$/rating/static/a_data/shortcodes.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/skip-link-focus-fix.js" afterPath="$PROJECT_DIR$/rating/static/a_data/skip-link-focus-fix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/social-share.js" afterPath="$PROJECT_DIR$/rating/static/a_data/social-share.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/style.css" afterPath="$PROJECT_DIR$/rating/static/a_data/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/superfish.js" afterPath="$PROJECT_DIR$/rating/static/a_data/superfish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/tabs.js" afterPath="$PROJECT_DIR$/rating/static/a_data/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/widget.js" afterPath="$PROJECT_DIR$/rating/static/a_data/widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/woo-style.css" afterPath="$PROJECT_DIR$/rating/static/a_data/woo-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/wp-emoji-release.js" afterPath="$PROJECT_DIR$/rating/static/a_data/wp-emoji-release.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/rating/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/css/fonts.css" afterPath="$PROJECT_DIR$/rating/static/css/fonts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/css/style.css" afterPath="$PROJECT_DIR$/rating/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/font/fontello.svg" afterPath="$PROJECT_DIR$/rating/static/font/fontello.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/rating/static/js/jquery-1.11.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/js/jquery-1.11.1.min.js.backup" afterPath="$PROJECT_DIR$/rating/static/js/jquery-1.11.1.min.js.backup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/js/jquery.flexisel.js" afterPath="$PROJECT_DIR$/rating/static/js/jquery.flexisel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/js/responsiveslides.min.js" afterPath="$PROJECT_DIR$/rating/static/js/responsiveslides.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/js/responsiveslides.min.js.backup" afterPath="$PROJECT_DIR$/rating/static/js/responsiveslides.min.js.backup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/_front.js" afterPath="$PROJECT_DIR$/rating/static/review/_front.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/_reviews.js" afterPath="$PROJECT_DIR$/rating/static/review/_reviews.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/_utils.js" afterPath="$PROJECT_DIR$/rating/static/review/_utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/a.json" afterPath="$PROJECT_DIR$/rating/static/review/a.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/analytics.js" afterPath="$PROJECT_DIR$/rating/static/review/analytics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/animation.css" afterPath="$PROJECT_DIR$/rating/static/review/animation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/anti-spam-4.js" afterPath="$PROJECT_DIR$/rating/static/review/anti-spam-4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/blue.css" afterPath="$PROJECT_DIR$/rating/static/review/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/core.js" afterPath="$PROJECT_DIR$/rating/static/review/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/css.css" afterPath="$PROJECT_DIR$/rating/static/review/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/css_002.css" afterPath="$PROJECT_DIR$/rating/static/review/css_002.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/dark.css" afterPath="$PROJECT_DIR$/rating/static/review/dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/draggable.js" afterPath="$PROJECT_DIR$/rating/static/review/draggable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/fontello.css" afterPath="$PROJECT_DIR$/rating/static/review/fontello.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/jquery-migrate.js" afterPath="$PROJECT_DIR$/rating/static/review/jquery-migrate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/jquery.css" afterPath="$PROJECT_DIR$/rating/static/review/jquery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/jquery.js" afterPath="$PROJECT_DIR$/rating/static/review/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/jquery_002.js" afterPath="$PROJECT_DIR$/rating/static/review/jquery_002.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/jquery_003.js" afterPath="$PROJECT_DIR$/rating/static/review/jquery_003.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/jquery_004.js" afterPath="$PROJECT_DIR$/rating/static/review/jquery_004.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/jquery_005.js" afterPath="$PROJECT_DIR$/rating/static/review/jquery_005.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/jquery_006.js" afterPath="$PROJECT_DIR$/rating/static/review/jquery_006.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/jquery_007.js" afterPath="$PROJECT_DIR$/rating/static/review/jquery_007.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/jquery_008.js" afterPath="$PROJECT_DIR$/rating/static/review/jquery_008.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/mediaelement-and-player.js" afterPath="$PROJECT_DIR$/rating/static/review/mediaelement-and-player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/mediaelementplayer.css" afterPath="$PROJECT_DIR$/rating/static/review/mediaelementplayer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/mouse.js" afterPath="$PROJECT_DIR$/rating/static/review/mouse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/prettyPhoto.css" afterPath="$PROJECT_DIR$/rating/static/review/prettyPhoto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/regular.css" afterPath="$PROJECT_DIR$/rating/static/review/regular.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/responsive.css" afterPath="$PROJECT_DIR$/rating/static/review/responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/shortcodes.css" afterPath="$PROJECT_DIR$/rating/static/review/shortcodes.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/skip-link-focus-fix.js" afterPath="$PROJECT_DIR$/rating/static/review/skip-link-focus-fix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/social-share.js" afterPath="$PROJECT_DIR$/rating/static/review/social-share.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/style.css" afterPath="$PROJECT_DIR$/rating/static/review/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/superfish.js" afterPath="$PROJECT_DIR$/rating/static/review/superfish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/tabs.js" afterPath="$PROJECT_DIR$/rating/static/review/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/widget.js" afterPath="$PROJECT_DIR$/rating/static/review/widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/review/wp-emoji-release.js" afterPath="$PROJECT_DIR$/rating/static/review/wp-emoji-release.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/Home page (fullwidth) _ Puzzles.html" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/Home page (fullwidth) _ Puzzles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a.html" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_002.html" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_002.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/_contact_form.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/_contact_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/_front.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/_front.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/_reviews.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/_reviews.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/_utils.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/_utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/add-to-cart.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/add-to-cart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/animation.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/animation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/badge_code_v2.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/badge_code_v2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/bbpress-style.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/bbpress-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/blue.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/buddy-style.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/buddy-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/buddypress.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/buddypress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/core.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/css.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/css_002.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/css_002.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/dark.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/draggable.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/draggable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/fontello.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/fontello.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/fontello.css.backup" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/fontello.css.backup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery-migrate.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery-migrate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_002.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_002.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_003.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_003.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_004.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_004.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_005.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_005.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_006.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_006.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_007.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_007.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_008.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_008.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_009.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/jquery_009.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/mediaelement-and-player.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/mediaelement-and-player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/mediaelementplayer.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/mediaelementplayer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/mouse.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/mouse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/prettyPhoto.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/prettyPhoto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/regular.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/regular.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/responsive.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/shortcodes.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/shortcodes.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/skip-link-focus-fix.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/skip-link-focus-fix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/social-share.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/social-share.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/style.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/superfish.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/superfish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/tabs.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/widget.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/woo-style.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/woo-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/wp-emoji-release.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/wp-emoji-release.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/analytics.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/analytics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/conversion.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/conversion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/ec.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/ec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/font/fontello.svg" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/font/fontello.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/index-content.html" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/index-content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/linkid.js" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/linkid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/stars.html" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/stars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/b/showimg.html" afterPath="$PROJECT_DIR$/rating/templates/b/showimg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/b/uploadimg.html" afterPath="$PROJECT_DIR$/rating/templates/b/uploadimg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/category.html" afterPath="$PROJECT_DIR$/rating/templates/category.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/css/bootstrap.css" afterPath="$PROJECT_DIR$/rating/templates/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/css/fonts.css" afterPath="$PROJECT_DIR$/rating/templates/css/fonts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/css/style.css" afterPath="$PROJECT_DIR$/rating/templates/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/detail.html" afterPath="$PROJECT_DIR$/rating/templates/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/font/fontello.svg" afterPath="$PROJECT_DIR$/rating/templates/font/fontello.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/forgotpassword.html" afterPath="$PROJECT_DIR$/rating/templates/forgotpassword.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/index.html" afterPath="$PROJECT_DIR$/rating/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/rating/templates/js/jquery-1.11.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/js/jquery-1.11.1.min.js.backup" afterPath="$PROJECT_DIR$/rating/templates/js/jquery-1.11.1.min.js.backup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/js/jquery.flexisel.js" afterPath="$PROJECT_DIR$/rating/templates/js/jquery.flexisel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/js/responsiveslides.min.js" afterPath="$PROJECT_DIR$/rating/templates/js/responsiveslides.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/js/responsiveslides.min.js.backup" afterPath="$PROJECT_DIR$/rating/templates/js/responsiveslides.min.js.backup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/login.html" afterPath="$PROJECT_DIR$/rating/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/register.html" afterPath="$PROJECT_DIR$/rating/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/review/review-widget.html" afterPath="$PROJECT_DIR$/rating/templates/review/review-widget.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/review/review/blue.css" afterPath="$PROJECT_DIR$/rating/templates/review/review/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/review/review/fontello.css" afterPath="$PROJECT_DIR$/rating/templates/review/review/fontello.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/review/review/regular.css" afterPath="$PROJECT_DIR$/rating/templates/review/review/regular.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/review/review/style.css" afterPath="$PROJECT_DIR$/rating/templates/review/review/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/tests.py" afterPath="$PROJECT_DIR$/rating/tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/urls.py" afterPath="$PROJECT_DIR$/rating/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/views.py" afterPath="$PROJECT_DIR$/rating/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/summerProject/settings.py" afterPath="$PROJECT_DIR$/summerProject/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/summerProject/urls.py" afterPath="$PROJECT_DIR$/summerProject/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/summerProject/wsgi.py" afterPath="$PROJECT_DIR$/summerProject/wsgi.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,8 +225,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rating/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="15">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -49,11 +234,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/summerProject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="435">
+              <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -69,28 +264,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/summerProject/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2318">
-              <caret line="122" column="3" lean-forward="false" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rating/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/summerProject/wsgi.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/summerProject/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -99,44 +274,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="76" column="59" lean-forward="false" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rating/templates/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
+            <state relative-caret-position="1035">
               <caret line="69" column="39" lean-forward="false" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/templates/index.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="44" column="53" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="53" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forgotpassword.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/templates/forgotpassword.html">
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rating/templates/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="313">
+              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="83" column="62" lean-forward="false" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,25 +341,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/rating/admin.py" />
-        <option value="$PROJECT_DIR$/rating/templates/detail.html" />
-        <option value="$PROJECT_DIR$/rating/views.py" />
         <option value="$PROJECT_DIR$/rating/models.py" />
         <option value="$PROJECT_DIR$/summerProject/settings.py" />
         <option value="$PROJECT_DIR$/summerProject/urls.py" />
         <option value="$PROJECT_DIR$/rating/urls.py" />
+        <option value="$PROJECT_DIR$/rating/views.py" />
+        <option value="$PROJECT_DIR$/rating/templates/detail.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-18" />
-    <option name="width" value="1445" />
-    <option name="height" value="867" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="92" />
+    <option name="y" value="24" />
+    <option name="width" value="1440" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -194,7 +387,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,18 +402,52 @@
             <path>
               <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
               <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
               <item name="summerProject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -235,6 +461,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.detail.html">
+    <configuration name="detail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RateMyStar/rating/templates/detail.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.detail.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -246,62 +480,52 @@
       <option name="presentableId" value="Default" />
       <updated>1503250462830</updated>
     </task>
+    <task id="LOCAL-00001" summary="url change">
+      <created>1503315162710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503315162710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="92" y="24" width="1440" height="805" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30543932" sideWeight="0.5198556" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32614556" sideWeight="0.48853868" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18463612" sideWeight="0.491404" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32394367" sideWeight="0.48853868" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34225354" sideWeight="0.491404" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34724092" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@summerProject" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40161726" sideWeight="0.4801444" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29512894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19484241" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@summerProject" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225353" sideWeight="0.4801444" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676056" sideWeight="0.49713466" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3118741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19444445" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2762803" sideWeight="0.52936965" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32112676" sideWeight="0.52936965" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847223" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32614556" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31090176" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34815755" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@summerProject" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28796563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3151207" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="url change" />
+    <option name="LAST_COMMIT_MESSAGE" value="url change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -317,29 +541,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/rating/media/upload/21904523204_bf11af3857_o.jpg" />
     <entry file="file://$PROJECT_DIR$/media/rating/media/upload/23406935546_86310b5b24_o.jpg" />
     <entry file="file://$PROJECT_DIR$/media/rating/media/upload/DSC01591.jpg" />
-    <entry file="file://$PROJECT_DIR$/rating/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rating/templates/js/cropperjs/src/js/change.js" />
     <entry file="file://$PROJECT_DIR$/rating/templates/images/1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="604" column="32" lean-forward="true" selection-start-line="604" selection-start-column="32" selection-end-line="604" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/base.py" />
     <entry file="file://$PROJECT_DIR$/rating/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -357,22 +567,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/core/cache/backends/memcached.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="175" column="6" lean-forward="false" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/core/cache/backends/memcached.py" />
     <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_scores" />
     <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.sqlite_master" />
-    <entry file="file://$PROJECT_DIR$/summerProject/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_score" />
     <entry file="file://$PROJECT_DIR$/rating/templates/123.html" />
     <entry file="file://$PROJECT_DIR$/rating/templates/css/style.css">
@@ -420,79 +617,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/login.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/base_user.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/models.py" />
+    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_img" />
+    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.django_session" />
+    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.django_migrations" />
+    <entry file="file://$PROJECT_DIR$/rating/migrations/0001_initial.py" />
+    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_comment" />
+    <entry file="file://$PROJECT_DIR$/rating/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="53" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/forgotpassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.auth_user" />
+    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_r_user" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summerProject/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/base_user.py">
+    <entry file="file://$PROJECT_DIR$/summerProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6859">
-          <caret line="376" column="27" lean-forward="false" selection-start-line="376" selection-start-column="27" selection-end-line="376" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_img" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.django_session" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.django_migrations" />
-    <entry file="file://$PROJECT_DIR$/rating/migrations/0001_initial.py" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_comment" />
-    <entry file="file://$PROJECT_DIR$/rating/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="89" column="55" lean-forward="false" selection-start-line="89" selection-start-column="55" selection-end-line="89" selection-end-column="55" />
+        <state relative-caret-position="399">
+          <caret line="122" column="51" lean-forward="false" selection-start-line="122" selection-start-column="51" selection-end-line="122" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/summerProject/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="53" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="53" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/forgotpassword.html">
+    <entry file="file://$PROJECT_DIR$/summerProject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.auth_user" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_r_user" />
-    <entry file="file://$PROJECT_DIR$/rating/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="39" lean-forward="false" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+        <state relative-caret-position="435">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rating/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="83" column="62" lean-forward="false" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -505,25 +713,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summerProject/settings.py">
+    <entry file="file://$PROJECT_DIR$/rating/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="122" column="3" lean-forward="false" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
+        <state relative-caret-position="165">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/views.py">
+    <entry file="file://$PROJECT_DIR$/rating/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="76" column="59" lean-forward="false" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1035">
+          <caret line="69" column="39" lean-forward="false" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summerProject/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/rating/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -531,18 +737,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summerProject/urls.py">
+    <entry file="file://$PROJECT_DIR$/rating/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/urls.py">
+    <entry file="file://$PROJECT_DIR$/rating/templates/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="313">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
           <folding />
         </state>
       </provider>

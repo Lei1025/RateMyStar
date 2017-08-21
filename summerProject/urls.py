@@ -30,12 +30,12 @@ urlpatterns = [
 #urlpatterns += staticfiles_urlpatterns()
 if settings.DEBUG:
     urlpatterns += [
-        url(r'^css(?P<path>.*)$', views.serve),
-        url(r'^images(?P<path>.*)$', views.serve),
-        url(r'^(?P<path>js.*)$', views.serve),
-        url(r'^(?P<path>a_data.*)$', views.serve),
-        url(r'^(?P<path>font.*)$', views.serve),
-        url(r'^(?P<path>review.*)$', views.serve),
+        url(r'(?P<path>.*/css.*)$', views.serve),
+        url(r'(?P<path>.*/images.*)$', views.serve),
+        url(r'(?P<path>.*/js.*)$', views.serve),
+        url(r'(?P<path>.*/a_data.*)$', views.serve),
+        url(r'(?P<path>.*/font.*)$', views.serve),
+        url(r'(?P<path>.*/review.*)$', views.serve),
 
        # url(r'^css/(?P<path>.*)$', views.serve,{ 'document_root': '/static/css'}),
         #url(r'^js/(?P<path>.*)$', views.serve),

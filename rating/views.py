@@ -69,17 +69,17 @@ def forgot_password(request):
 def index_content(request):
     return render(request,'Puzzles/index-content.html')
 
-def detail(request):
+def detail(request,name):
     if request.method=='POST':
         username=request.user
         time=datetime.datetime.now()
         comment=request.POST['comment']
-        Comment.objects.create(user=R_User.objects.get(user__username=username),article=Article.objects.get(title='Katy Perry'),time=time,text=comment)
+        Comment.objects.create(user=R_User.objects.get(user__username=username),article=Article.objects.get(title__iexact=name),time=time,text=comment)
 
-    count=Comment.objects.filter(article__title='Katy Perry').count()
-    comment=Comment.objects.filter(article__title='Katy Perry')
+    count=Comment.objects.filter(article__title__iexact=name).count()
+    comment=Comment.objects.filter(article__title__iexact=name)
     try:
-        article=Article.objects.get(title='Katy Perry')
+        article=Article.objects.get(title__iexact=name)
     except:
         return render(request, 'detail.html',{'error':'No Data'})
     return render(request, 'detail.html',{'article':article,'count':count,'comment':comment})
