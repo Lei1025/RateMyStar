@@ -2,51 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="932721f2-bf9a-41d7-9430-b781e5910b4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/001-medical.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/001-technology.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/002-theater-masks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/003-boxing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/004-blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/005-flamenco-male-model-standing-frontal-symbol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/006-karaoke.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/logou-button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/red_user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/yizan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/zan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/001-medical.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/001-technology.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/002-theater-masks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/003-boxing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/004-blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/005-flamenco-male-model-standing-frontal-symbol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/006-karaoke.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/logout-button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/yizan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/zan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/css/like.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/js/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/css/like.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/js/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/zan.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rating/media/article/thumbnail/bddaded8-4451-4727-8b9f-beb420180302-1998x2040.jpeg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/media/article/banner/Highest-Paid-Male-Models-TOP-10-16.jpg" afterPath="$PROJECT_DIR$/rating/media/article/banner/Highest-Paid-Male-Models-TOP-10-16.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/media/article/banner/katy-perry-witness-tgj-1_tV4mMcI.jpg" afterPath="$PROJECT_DIR$/rating/media/article/banner/katy-perry-witness-tgj-1_tV4mMcI.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/images/logo.png" afterPath="$PROJECT_DIR$/rating/static/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/images/logo.png" afterPath="$PROJECT_DIR$/rating/templates/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/Daley.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/models.py" afterPath="$PROJECT_DIR$/rating/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/a_data/style.css" afterPath="$PROJECT_DIR$/rating/static/a_data/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/css/style.css" afterPath="$PROJECT_DIR$/rating/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/style.css" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/a_data/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/index-content.html" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/index-content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/category.html" afterPath="$PROJECT_DIR$/rating/templates/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/css/style.css" afterPath="$PROJECT_DIR$/rating/templates/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/detail.html" afterPath="$PROJECT_DIR$/rating/templates/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/footer.html" afterPath="$PROJECT_DIR$/rating/templates/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/head.html" afterPath="$PROJECT_DIR$/rating/templates/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/index.html" afterPath="$PROJECT_DIR$/rating/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/upload.html" afterPath="$PROJECT_DIR$/rating/templates/upload.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/urls.py" afterPath="$PROJECT_DIR$/rating/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/views.py" afterPath="$PROJECT_DIR$/rating/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/summerProject/urls.py" afterPath="$PROJECT_DIR$/summerProject/urls.py" />
@@ -97,33 +55,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="003-boxing.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/static/images/003-boxing.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="157" column="33" lean-forward="false" selection-start-line="157" selection-start-column="33" selection-end-line="157" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="like.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/static/css/like.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="like.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rating/templates/css/like.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,33 +69,13 @@
         <entry file="file://$PROJECT_DIR$/rating/templates/category.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forgotpassword.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/templates/forgotpassword.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/templates/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="157" column="41" lean-forward="false" selection-start-line="157" selection-start-column="41" selection-end-line="157" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="upload.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rating/templates/upload.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
@@ -174,13 +85,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zan.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/templates/zan.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="69" />
-              <folding />
-            </state>
+      <file leaf-file-name="3-131-likes-jon-kortajarena-by-anthony-meyer-for-apollo-novo-2012-tux-_6NzQuU0.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3-131-likes-jon-kortajarena-by-anthony-meyer-for-apollo-novo-2012-tux-_6NzQuU0.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3x-copy_5HdglXj.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3x-copy_5HdglXj.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="92f5a813a8b3527ae9b31bfe4ce9bfa2--keira-knightley-style-girl-crushes.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/92f5a813a8b3527ae9b31bfe4ce9bfa2--keira-knightley-style-girl-crushes.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3611a1aaa304a950f5016804126f3de3--george-rr-martin-martin-omalley.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3611a1aaa304a950f5016804126f3de3--george-rr-martin-martin-omalley.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="54969dd8c24693d05c8445c0de4ad74a719f1d65.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/54969dd8c24693d05c8445c0de4ad74a719f1d65.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11031768_10153135051608926_1829404124679828441_o.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/11031768_10153135051608926_1829404124679828441_o.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -281,10 +224,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="722" />
-    <option name="width" value="718" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="321" />
+    <option name="y" value="45" />
+    <option name="width" value="1440" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -321,6 +265,21 @@
               <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
               <item name="rating" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="thumbnail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
@@ -499,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503624267618</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="demo check">
+      <created>1503699825163</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503699825163</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -511,18 +477,18 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="321" y="45" width="1440" height="800" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33978236" sideWeight="0.5171674" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32285368" sideWeight="0.48853868" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33978236" sideWeight="0.4828326" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3470375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@summerProject" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30350664" sideWeight="0.4801444" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@summerProject" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30212766" sideWeight="0.4801444" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32648125" sideWeight="0.49713466" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2267525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19384836" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32527205" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32527205" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31801692" sideWeight="0.52936965" order="3" side_tool="false" content_ui="tabs" />
@@ -559,7 +525,8 @@
     <MESSAGE value="test detail url" />
     <MESSAGE value="url fixes" />
     <MESSAGE value="category finish&#10;sidebar finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="category finish&#10;sidebar finish" />
+    <MESSAGE value="demo check" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -575,11 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rating/media/article/banner/Neymar-da-Silva-Santos-Junior-wallpaper-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rating/media/article/banner/larastonecalvinklein.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -686,31 +648,6 @@
           <caret line="317" column="1" lean-forward="false" selection-start-line="317" selection-start-column="1" selection-end-line="317" selection-end-column="1" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3-131-likes-jon-kortajarena-by-anthony-meyer-for-apollo-novo-2012-tux-_6NzQuU0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3x-copy_5HdglXj.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3611a1aaa304a950f5016804126f3de3--george-rr-martin-martin-omalley.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/54969dd8c24693d05c8445c0de4ad74a719f1d65.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/11031768_10153135051608926_1829404124679828441_o.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/450313990.jpg">
@@ -820,7 +757,7 @@
         <state relative-caret-position="298">
           <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -891,7 +828,7 @@
     <entry file="file://$PROJECT_DIR$/rating/templates/category.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -913,6 +850,36 @@
           <caret line="84" column="34" lean-forward="false" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3-131-likes-jon-kortajarena-by-anthony-meyer-for-apollo-novo-2012-tux-_6NzQuU0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3x-copy_5HdglXj.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/92f5a813a8b3527ae9b31bfe4ce9bfa2--keira-knightley-style-girl-crushes.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3611a1aaa304a950f5016804126f3de3--george-rr-martin-martin-omalley.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/54969dd8c24693d05c8445c0de4ad74a719f1d65.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/11031768_10153135051608926_1829404124679828441_o.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
