@@ -11,7 +11,9 @@
 <!-- start plugins -->
 <script type="text/javascript" src={% static "js/jquery-1.11.1.min.js" %}></script>
 <link href={% static 'css/fonts.css' %}rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="css/like.css">
 
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -76,7 +78,38 @@
                             <li>
 					            <div class="preview"><a href="#"><img src='{{ c.user.profile.url }}' class="img-responsive" alt=""></a></div>
 					            <div class="data">
-					                <div class="title">{{ c.user.user }}  /  {{ c.time }} </div>
+					                <div class="title" style="display:inline">{{ c.user.user }}  /  {{ c.time }}    </div>
+                                    <div class="praise" style="display: inline">
+	<span id="praise{{ c.user_id }}"><img src="images/zan.png" id="praise-img{{ c.user_id }}" /></span>
+	<span id="add-num"><em>+1</em></span>
+</div>
+
+<script>
+	$(function(){
+		$("#praise{{ c.user_id }} ").click(function(){
+			var praise_img = $("#praise-img{{ c.user_id }}");
+			var text_box = $("#add-num");
+			var praise_txt = $("#praise-txt");
+			var num=parseInt(praise_txt.text());
+			if(praise_img.attr("src") == ("images/yizan.png")){
+				$(this).html("<img src='images/zan.png' id='praise-img' class='animation' />");
+				praise_txt.removeClass("hover");
+				text_box.show().html("<em class='add-animation'>-1</em>");
+				$(".add-animation").removeClass("hover");
+				num -=1;
+				praise_txt.text(num)
+			}else{
+				$(this).html("<img src='images/yizan.png' id='praise-img' class='animation' />");
+				praise_txt.addClass("hover");
+				text_box.show().html("<em class='add-animation'>+1</em>");
+				$(".add-animation").addClass("hover");
+				num +=1;
+				praise_txt.text(num)
+			}
+		});
+	})
+</script>
+
                                     <p>{{ c.text }}</p>
 					            </div>
 					            <div class="clearfix"></div>

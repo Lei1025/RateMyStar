@@ -1,0 +1,48 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>like</title>
+
+<link type="text/css" rel="stylesheet" href="css/like.css">
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+</head>
+
+<body>
+
+
+<div class="praise">
+	<span id="praise"><img src="images/zan.png" id="praise-img" /></span>
+	<span id="praise-txt">1455</span>
+	<span id="add-num"><em>+1</em></span>
+</div>
+
+<script>
+	$(function(){
+		$("#praise").click(function(){
+			var praise_img = $("#praise-img");
+			var text_box = $("#add-num");
+			var praise_txt = $("#praise-txt");
+			var num=parseInt(praise_txt.text());
+			if(praise_img.attr("src") == ("images/yizan.png")){
+				$(this).html("<img src='images/zan.png' id='praise-img' class='animation' />");
+				praise_txt.removeClass("hover");
+				text_box.show().html("<em class='add-animation'>-1</em>");
+				$(".add-animation").removeClass("hover");
+				num -=1;
+				praise_txt.text(num)
+			}else{
+				$(this).html("<img src='images/yizan.png' id='praise-img' class='animation' />");
+				praise_txt.addClass("hover");
+				text_box.show().html("<em class='add-animation'>+1</em>");
+				$(".add-animation").addClass("hover");
+				num +=1;
+				praise_txt.text(num)
+			}
+		});
+	})
+</script>
+</body>
+</html>
+

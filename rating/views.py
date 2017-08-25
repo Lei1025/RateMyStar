@@ -42,18 +42,16 @@ def register(request):
 
 def user_login(request):
     if request.method == 'POST':
-        email = request.POST['Email']
-        password = request.POST['Password']
-        username = User.objects.get(email=email)
-        user = authenticate(request,username=username.username, password=password)
-        if user:
-            if user.is_active:
-                login(request, user)
-                profile = R_User.objects.get(user__username=user)
-                return HttpResponseRedirect('index')
-            else:
-                return render(request,'login.html',{'error':'Your account is disabled!Please contact our administrator.'})
-        else:
+        try:
+            email = request.POST['Email']
+            password = request.POST['Password']
+            username = User.objects.get(email=email)
+            user = authenticate(request,username=username.username, password=password)
+            login(request, user)
+            profile = R_User.objects.get(user__username=user)
+            return HttpResponseRedirect('index')
+
+        except:
             return render(request,'login.html',{'error':'Your email address or password was entered incorrectly.'})
     else:
         return render(request,'login.html')
@@ -65,8 +63,10 @@ def user_logout(request):
 
 def index(request):
     content=Article.objects.all().order_by('?')[:8]
-
-    return render(request,'index.html',{'content':content})
+    banner1=Article.objects.get(title='Katy Perry')
+    banner2 = Article.objects.get(title='Ben Whishaw')
+    banner3 = Article.objects.get(title='Jon Kortajarena')
+    return render(request,'index.html',{'content':content,'banner1':banner1,'banner2':banner2,'banner3':banner3})
 
 def forgot_password(request):
     return render(request,'forgotpassword.html')
@@ -109,7 +109,7 @@ def detail(request,name):
         pass
 
     count=Comment.objects.filter(article__title__iexact=name).count()
-    comment=Comment.objects.filter(article__title__iexact=name)
+    comment=Comment.objects.filter(article__title__iexact=name).order_by('-time')
     sidebar2=Article.objects.all().order_by('?')[:3]
     sidebar=sidebar2
     try:
@@ -119,18 +119,25 @@ def detail(request,name):
     return render(request, 'detail.html',{'article':article,'count':count,'comment':comment,'sidebar':sidebar})
 
 def category(request,name):
-    content=Article.objects.filter(category__iexact=name).order_by('title')
-    count=content.count()
+    error=""
+    if name=='search':
+        try:
+            search=request.POST['search']
+            content=Article.objects.filter(title__icontains=search)
+        except:
+            error='Error'
+        if content.count()==0:
+            error="No Data"
 
-    #deliver page style required parameters
-    direction = ['right', 'right', 'left', 'left']
-    for i in range(1, math.ceil((count/4))):
-        list = ['right', 'right', 'left', 'left']
-        direction += list
+    else:
+        content = Article.objects.filter(category__iexact=name).order_by('title')
+
+
+
     title=str.capitalize(name)
     recent=Article.objects.all().order_by('-date')[:10]
     sidebar = Article.objects.all().order_by('?')[:3]
-    return render(request,'category.html',{'category':content,'direction':direction,'title':title,'recent':recent,'sidebar':sidebar})
+    return render(request,'category.html',{'category':content,'title':title,'recent':recent,'sidebar':sidebar,'error':error})
 
 
 def upload(request):

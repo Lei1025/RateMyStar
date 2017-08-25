@@ -330,9 +330,7 @@
                             </a><--><span class="post_category theme_accent_bg"
                                           style="background-color: #00a0db">{{ content.1.category }}</span>
                             <div class="post_content_wrapper theme_puzzles" style="background-color:#111111;"><h2
-                                    class="post_subtitle"><a
-                                    href="http://puzzles.themerex.net/star-trek-into-darkness/">Star Trek Into
-                                Darkness</a></h2>
+                                    class="post_subtitle"><a href="detail-{{ content.1.title }}">{{ content.1.title }}</a></h2>
                                 <div class="reviews_summary blog_reviews theme_puzzles"
                                      style="background-color:#111111;">
                                     <div class="criteria_summary criteria_row"><span class="criteria_stars"
@@ -340,11 +338,16 @@
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
-					<span class="stars_on" style="width:92%;"><span class="theme_stars theme_stars_on"></span><span
+					<span id='1' class="stars_on" style="width:92%;"><span class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
+                                          <script>
+                var a = {{ content.1.AVG }};
+                var b = a / 5 * 100;
+                document.getElementById('1').style.width = b + '%';
+            </script>
 				</span></div>
                                 </div>
                                 <div class="post_descr"><p>After the crew of the Enterprise find an unstoppable
@@ -372,8 +375,7 @@
                                 class="post_category theme_accent_bg"
                                 style="background-color: #00a0db">{{ content.2.category }}</span>
                             <div class="post_content_wrapper theme_puzzles" style="background-color:#9a0000;"><h2
-                                    class="post_subtitle"><a href="http://puzzles.themerex.net/iron-man-3/">Iron
-                                Man</a></h2>
+                                    class="post_subtitle"><a href="detail-{{ content.2.title }}">{{ content.2.title }}</a></h2>
                                 <div class="reviews_summary blog_reviews theme_puzzles"
                                      style="background-color:#9a0000;">
                                     <div class="criteria_summary criteria_row"><span class="criteria_stars"
@@ -381,11 +383,16 @@
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
-					<span class="stars_on" style="width:70%;"><span class="theme_stars theme_stars_on"></span><span
+					<span id='2' class="stars_on" style="width:70%;"><span class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
+                                          <script>
+                var a = {{ content.2.AVG }};
+                var b = a / 5 * 100;
+                document.getElementById('2').style.width = b + '%';
+            </script>
 				</span></div>
                                 </div>
                                 <div class="post_descr"><p>When Tony Stark’s
@@ -411,7 +418,7 @@
                                                                                 height="310" width="310"></a><span
                                 class="post_category theme_accent_bg" style="background-color: #e99f00">{{ content.3.category }}</span>
                             <div class="post_content_wrapper theme_puzzles" style="background-color:#222222;"><h2
-                                    class="post_subtitle"><a href="http://puzzles.themerex.net/grid-2/">Grid</a>
+                                    class="post_subtitle"><a href="detail-{{ content.3.title }}">{{ content.3.title }}</a>
                             </h2>
                                 <div class="reviews_summary blog_reviews theme_puzzles"
                                      style="background-color:#222222;">
@@ -420,11 +427,16 @@
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
-					<span class="stars_on" style="width:74%;"><span class="theme_stars theme_stars_on"></span><span
+					<span id='3'class="stars_on" style="width:74%;"><span class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
+                                          <script>
+                var a = {{ content.3.AVG }};
+                var b = a / 5 * 100;
+                document.getElementById('3').style.width = b + '%';
+            </script>
 				</span></div>
                                 </div>
                                 <div class="post_descr"><p>Aliquam varius magna
@@ -451,10 +463,9 @@
                                                                                      src="{{ content.4.thumbnail.url }}"
                                                                                      height="310"
                                                                                      width="310"></a><span
-                                class="post_category theme_accent_bg" style="background-color: #e99f00">Games</span>
+                                class="post_category theme_accent_bg" style="background-color: #e99f00">{{ content.4.category }}</span>
                             <div class="post_content_wrapper theme_puzzles" style="background-color:#c95a00;"><h2
-                                    class="post_subtitle"><a
-                                    href="http://puzzles.themerex.net/gear-of-war/">Hitman</a></h2>
+                                    class="post_subtitle"><a href="detail-{{ content.4.title }}">{{ content.4.title }}</a></h2>
                                 <div class="reviews_summary blog_reviews theme_puzzles"
                                      style="background-color:#c95a00;">
                                     <div class="criteria_summary criteria_row"><span class="criteria_stars"
@@ -462,11 +473,16 @@
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
-					<span class="stars_on" style="width:94%;"><span class="theme_stars theme_stars_on"></span><span
+					<span id='4'class="stars_on" style="width:94%;"><span class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
+                                          <script>
+                var a = {{ content.4.AVG }};
+                var b = a / 5 * 100;
+                document.getElementById('4').style.width = b + '%';
+            </script>
 				</span></div>
                                 </div>
                                 <div class="post_descr"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -490,10 +506,29 @@
                                                                                    src="{{ content.5.thumbnail.url }}"
                                                                                    height="310"
                                                                                    width="310"></a><span
-                                class="post_category theme_accent_bg" style="background-color: #e99f00">Games</span>
+                                class="post_category theme_accent_bg" style="background-color: #e99f00">{{ content.5.category }}</span>
                             <div class="post_content_wrapper theme_puzzles" style="background-color:#111111;"><h2
-                                    class="post_subtitle"><a href="http://puzzles.themerex.net/prejudice/">GTA V</a>
+                                    class="post_subtitle"><a href="detail-{{ content.5.title }}">{{ content.5.title }}</a>
                             </h2>
+                                <div class="reviews_summary blog_reviews theme_puzzles"
+                                     style="background-color:#111111;">
+                                    <div class="criteria_summary criteria_row"><span class="criteria_stars"
+                                                                                     title="4.7 from 5">
+					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
+                            class="theme_stars"></span><span class="theme_stars"></span><span
+                            class="theme_stars"></span></span>
+					<span id='5'class="stars_on" style="width:94%;"><span class="theme_stars theme_stars_on"></span><span
+                            class="theme_stars theme_stars_on"></span><span
+                            class="theme_stars theme_stars_on"></span><span
+                            class="theme_stars theme_stars_on"></span><span
+                            class="theme_stars theme_stars_on"></span></span>
+                                          <script>
+                var a = {{ content.5.AVG }};
+                var b = a / 5 * 100;
+                document.getElementById('5').style.width = b + '%';
+            </script>
+				</span></div>
+                                </div>
                                 <div class="post_descr"><p>Sed
                                     id quam eu arcu dapibus pharetra ut vel purus. Aliquam porttitor quam
                                     vel lacus volutpat rhoncus. Curabitur imperdiet tellus quis sapien
@@ -517,10 +552,28 @@
                                                                                   alt="XBox One"
                                                                                   src="{{ content.6.thumbnail.url }}"
                                                                                   height="310" width="310"></a><span
-                                class="post_category theme_accent_bg" style="background-color: #96d400">Tech</span>
+                                class="post_category theme_accent_bg" style="background-color: #96d400">{{ content.6.category }}</span>
                             <div class="post_content_wrapper theme_puzzles" style="background-color:#222222;"><h2
-                                    class="post_subtitle"><a href="http://puzzles.themerex.net/xbox-one/">XBox
-                                One</a></h2>
+                                    class="post_subtitle"><a href="detail-{{ content.6.title }}">{{ content.6.title }}</a></h2>
+                                <div class="reviews_summary blog_reviews theme_puzzles"
+                                     style="background-color:#222222;">
+                                    <div class="criteria_summary criteria_row"><span class="criteria_stars"
+                                                                                     title="4.7 from 5">
+					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
+                            class="theme_stars"></span><span class="theme_stars"></span><span
+                            class="theme_stars"></span></span>
+					<span id='6'class="stars_on" style="width:94%;"><span class="theme_stars theme_stars_on"></span><span
+                            class="theme_stars theme_stars_on"></span><span
+                            class="theme_stars theme_stars_on"></span><span
+                            class="theme_stars theme_stars_on"></span><span
+                            class="theme_stars theme_stars_on"></span></span>
+                                          <script>
+                var a = {{ content.6.AVG }};
+                var b = a / 5 * 100;
+                document.getElementById('6').style.width = b + '%';
+            </script>
+				</span></div>
+                                </div>
                                 <div class="post_descr"><p>Lorem
                                     ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel enim
                                     enim. Proin tortor diam, ultricies quis quam sed, vulputate mollis arcu.
@@ -545,11 +598,9 @@
                                                                                              src="{{ content.7.thumbnail.url }}"
                                                                                              height="310"
                                                                                              width="310"></a><span
-                                class="post_category theme_accent_bg" style="background-color: #f03232">Music</span>
+                                class="post_category theme_accent_bg" style="background-color: #f03232">{{ content.7.category }}</span>
                             <div class="post_content_wrapper theme_puzzles" style="background-color:#a01c43;"><h2
-                                    class="post_subtitle"><a
-                                    href="http://puzzles.themerex.net/duft-punk-get-lucky/">Duft punk – Get
-                                lucky</a></h2>
+                                    class="post_subtitle"><a href="detail-{{ content.7.title }}">{{ content.7.title }}</a></h2>
                                 <div class="reviews_summary blog_reviews theme_puzzles"
                                      style="background-color:#a01c43;">
                                     <div class="criteria_summary criteria_row"><span class="criteria_stars"
@@ -557,11 +608,17 @@
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
-					<span class="stars_on" style="width:100%;"><span class="theme_stars theme_stars_on"></span><span
+					<span id='7'class="stars_on" style="width:100%;"><span class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
+                                         <script>
+                var a = {{ content.7.AVG }};
+                var b = a / 5 * 100;
+                document.getElementById('7').style.width = b + '%';
+            </script>
+
 				</span></div>
                                 </div>
                                 <div class="post_descr"><p>Ut pretium tristique

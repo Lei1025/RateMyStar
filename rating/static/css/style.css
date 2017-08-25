@@ -26,7 +26,7 @@ body a{
 }
 .header_top{
 	background: #fff;
-padding:2em 1em 1.8em;
+padding:2em 1em 1.5em;
 border-top-left-radius: 3px;
 -webkit-border-top-left-radius: 3px;
 -moz-border-top-left-radius: 3px;
@@ -43,6 +43,7 @@ border-top-right-radius: 3px;
 /*---social-icons-----*/
 .nav {
 	text-align:center;
+	padding-top:5px;
 	
 }
 .nav ul{
@@ -56,8 +57,8 @@ border-top-right-radius: 3px;
 	display:inline-block;
 }
 .nav li a {
-	height:30px;
-	width:30px;
+	height:25px;
+	width:25px;
 	display: block;
 }
 .nav li a:hover {
@@ -146,22 +147,28 @@ border-top-right-radius: 3px;
 }
 /*------------end social simptip----------------*/
 .nav li:nth-child(1) a{
-	background: url(../images/img_sprite.png) -7px -9px;
+	background: url(../images/001-technology.png);
+	background-size: 25px 25px;
 }
 .nav li:nth-child(2) a{
-	background: url(../images/img_sprite.png) -49px -8px;
+	background: url(../images/002-theater-masks.png);
+	background-size: 25px 25px;
 }
 .nav li:nth-child(3) a{
-	background: url(../images/img_sprite.png) -90px -9px;
+	background: url(../images/001-medical.png);
+	background-size: 25px 25px;
 }
 .nav li:nth-child(4) a{
-	background: url(../images/img_sprite.png) -130px -8px;
+	background: url(../images/005-flamenco-male-model-standing-frontal-symbol.png);
+	background-size: 25px 25px;
 }
 .nav li:nth-child(5) a{
-	background: url(../images/img_sprite.png) -175px -9px;
+	background: url(../images/006-karaoke.png);
+	background-size: 25px 25px;
 }
 .nav li:nth-child(6) a{
-	background: url(../images/img_sprite.png) -216px -9px;
+	background: url(../images/004-blog.png);
+	background-size: 25px 25px;
 }
 ul.header_right_box{
 	/*padding:0;*/
@@ -423,7 +430,7 @@ margin: 0;
 max-width: none;
 position: absolute;
 top:58%;
-right:15%;
+left:15%;
 
 }
 .button a{

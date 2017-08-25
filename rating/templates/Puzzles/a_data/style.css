@@ -1485,7 +1485,7 @@ ul.slides li img {
 		display: inline-block;
 		width: 120px;
 		height: 28px;
-		overflow: hidden;
+		/*overflow:hidden;*/
 	}
 	.reviews_10 .blog_reviews .criteria_row .criteria_stars {
 		width:124px;
