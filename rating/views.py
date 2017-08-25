@@ -152,5 +152,7 @@ def upload(request):
         content=request.POST['content']
         Article.objects.create(author=User.objects.get(username=username),category=category,title=title,age=age,nationality=nationality,thumbnail=thumbnail,banner=banner,content=content)
         return HttpResponseRedirect('detail-'+title)
-    return render(request,'upload.html')
+    username=request.user
+    comment=Comment.objects.filter(user__user__username=username)
+    return render(request,'upload.html',{'comment':comment})
 

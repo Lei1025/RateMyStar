@@ -152,6 +152,14 @@ if(input.files){
                             <div class="clearfix"></div>
                             <br>
                         </form>
+                        <div style="width:100%; margin: 1em 0;" align="center"><strong>Reviewed Comments</strong>
+                        </div>
+                        <hr>
+                        {% for c in comment %}
+                            <p><strong>{{ c.article }}</strong>:    {{ c.time }}    <strong>Your comment:</strong>   {{ c.text }}</p>
+
+                        {% endfor %}
+
                     </div>
             </div>
         </div>
