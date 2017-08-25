@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Stars</title>
     <link rel="stylesheet" id="fontello-css" href="a_data/fontello.css" type="text/css" media="all">
@@ -66,31 +67,37 @@
     overflow:visible;
 }
 </style>
+
 </head>
 
 <body>
-    <div class="reviews_summary blog_reviews ">
-        <div class="criteria_summary criteria_row">
+<div class="reviews_summary blog_reviews ">
+    <div class="criteria_summary criteria_row">
             <span class="criteria_stars">
-					<span class="stars_off" >
+					<span class="stars_off">
                         <span class="theme_stars"></span>
                         <span class="theme_stars"></span>
                         <span class="theme_stars"></span>
                         <span class="theme_stars"></span>
                         <span class="theme_stars"></span>
                     </span>
-					<span class="stars_on" style="width:50%">
-                        <span class="theme_stars theme_stars_on"></span>
-                        <span class="theme_stars theme_stars_on"></span>
-                        <span class="theme_stars theme_stars_on"></span>
-                        <span class="theme_stars theme_stars_on"></span>
-                        <span class="theme_stars theme_stars_on"></span>
-                    </span>
-            </span>
-        </div>
-</div>
-</div>
 
+					<span id='avg' class="stars_on" style="width:0%">
+                        <span class="theme_stars theme_stars_on"></span>
+                        <span class="theme_stars theme_stars_on"></span>
+                        <span class="theme_stars theme_stars_on"></span>
+                        <span class="theme_stars theme_stars_on"></span>
+                        <span class="theme_stars theme_stars_on"></span>
+                    </span>
+            <script>
+                var a = 2;
+                var b = a / 5 * 100;
+                document.getElementById('avg').style.width = b + '%';
+            </script>
+
+            </span>
+    </div>
+</div>
 
 
 </body>

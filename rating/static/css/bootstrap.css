@@ -93,7 +93,7 @@ figure {
   margin: 1em 40px;
 }
 hr {
-  height: 0;
+  
   -moz-box-sizing: content-box;
        box-sizing: content-box;
 }
@@ -278,10 +278,6 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-}
-
-p{
- font-size:16px;
 }
 input,
 button,

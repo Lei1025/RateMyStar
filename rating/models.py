@@ -14,11 +14,11 @@ class IMG(models.Model):
         return self.id
 
 class R_User(models.Model):
-    user=models.OneToOneField(User,default='new user')
+    user=models.OneToOneField(User,default='new user',related_name='profile')
     profile=models.ImageField(upload_to='profile',default='profile/user.png')
 
     def __str__(self):
-        return str(self.user)
+        return 'Profile of user: {}'.format(self.user.username)
 
 class Article(models.Model):
     CATEGORY_CHOICES=(
@@ -30,7 +30,7 @@ class Article(models.Model):
         ('Hosts','Hosts'),
     )
     #id = models.AutoField(primary_key=True)
-    author=models.ForeignKey(settings.AUTH_USER_MODEL,default='Username')
+    author=models.ForeignKey(User,default='Username')
     date=models.DateField(default=datetime.date.today)
     title=models.CharField(max_length=100)
     age=models.PositiveIntegerField(default=0)
@@ -38,19 +38,16 @@ class Article(models.Model):
     nationality=models.CharField(max_length=100)
     thumbnail=models.ImageField(upload_to='article/thumbnail',default="Please uplaod a thumbnail picture.")
     banner=models.ImageField(upload_to='article/banner',default="Please upload a banner picture.")
-    content=models.TextField(max_length=10000)
-
-    def __str__(self):
-        return self.title
-
-class Score(models.Model):
-    user = models.OneToOneField(User, default='new user')
-    title=models.ForeignKey(Article)
-    C1=models.DecimalField(decimal_places=1,max_digits=2,default=Decimal(0.0))
-    C2=models.DecimalField(decimal_places=1,max_digits=2,default=Decimal(0.0))
+    users= models.PositiveIntegerField(default=0)
+    C1 = models.DecimalField(decimal_places=1, max_digits=2, default=Decimal(0.0))
+    C2 = models.DecimalField(decimal_places=1, max_digits=2, default=Decimal(0.0))
     C3 = models.DecimalField(decimal_places=1, max_digits=2, default=Decimal(0.0))
     C4 = models.DecimalField(decimal_places=1, max_digits=2, default=Decimal(0.0))
     C5 = models.DecimalField(decimal_places=1, max_digits=2, default=Decimal(0.0))
+    AVG = models.DecimalField(decimal_places=1, max_digits=2, default=Decimal(0.0))
+    content=models.TextField(max_length=10000)
+
+
     def __str__(self):
         return self.title
 

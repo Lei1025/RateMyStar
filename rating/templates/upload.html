@@ -1,0 +1,158 @@
+
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Upload</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- start plugins -->
+
+<script>  
+window.check=function(){ 
+
+var input = document.getElementById("file");  
+
+
+if(input.files){  
+                //读取图片数据  
+  var f = input.files[0];  
+  var reader = new FileReader();  
+  reader.onload = function (e) {  
+      var data = e.target.result;  
+      //加载图片获取图片真实宽度和高度  
+      var image = new Image();  
+      image.onload=function(){  
+
+          var width = image.width;  
+          var height = image.height; 
+
+          if (  width>1 || height>1 ){
+
+          	alert("Too big");  
+          	return false;
+         }
+
+ 
+      };  
+      image.src= data;  
+  };  
+      reader.readAsDataURL(f);  
+  }else{  
+      var image = new Image();   
+      image.onload =function(){  
+          var width = image.width;  
+          var height = image.height;  
+          var fileSize = image.fileSize;  
+                    if (  width>1 || height>1 ){
+
+          	alert("Too big");  
+          	return false;
+          }
+
+        
+      }  
+      image.src = input.value;  
+  }  
+}  
+</script>  
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="container_wrap">
+        {% include 'head.html' %}
+        <div class="content">
+            <div class="register">
+                    <div class="Upload">
+
+                        <p>
+                        <p class='stay-in-1-line'>USERNAME:</p><input type="text"
+                                                                      placeholder="{{ request.user.username }}" disabled
+                                                                      style="width: 50%; text-align: center"></p>
+                        <p>
+                        <p class='stay-in-1-line'>E-MAIL:</p><input type="email" placeholder="{{ request.user.email }}"
+                                                                    name="email" disabled
+                                                                    style="width: 50%; text-align: center"></p>
+                        <p class='stay-in-1-line'>PROTRAIT EDIT:</p>
+                        <input id="file" type="file" style="display:inline;">
+
+                        <br>
+                        <div style="width:100%; margin: 1em 0;" align="center"><strong>Personal Information</strong>
+                        </div>
+                        <hr>
+                        <form action="">
+                            <p>
+                            <p class='stay-in-1-line'>PASSWORD:</p><input type="password" required=""
+                                                                          style="width: 50%; text-align: center"></p>
+                            <p>
+                            <p class='stay-in-1-line'>NEW PASSWORD:</p><input type="password" required=""
+                                                                              style="width: 50%; text-align: center"></p>
+                            <p>
+                            <p class='stay-in-1-line'>NEW PASSWORD AGAIN:</p><input type="password" required=""
+                                                                                    style="width: 50%; text-align: center"></p>
+                            <br>
+                            <div style="display:flex;justify-content: center">
+                                <input type="submit" style="align:center" value="submit" onclick="check()">
+
+                            </div>
+                        </form>
+                        <br>
+                        <div style="width:100%; margin: 1em 0;" align="center"><strong>Upload an Article</strong></div>
+                        <hr>
+                        <form action="upload.html" method="POST" enctype="multipart/form-data">
+                             {% csrf_token %}
+                            <p class='stay-in-1-line'>CATEGORY:</p>
+                            <select name="category" required="" style="width: 10%; text-align: center" id="id_category">
+                                <option value="" selected>---------</option>
+
+                                <option value="Musicians">Musicians</option>
+
+                                <option value="Authors">Authors</option>
+
+                                <option value="Actors">Actors</option>
+
+                                <option value="Athletes">Athltes</option>
+                                <option value="Models">Models</option>
+
+                                <option value="Hosts">Hosts</option>
+
+                            </select>
+
+                            <p>
+                            <p class='stay-in-1-line'>NAME:</p><input type="text" required=""
+                                                                      style="width: 50%; text-align: center" name="name"></p>
+                            <p>
+                            <p class='stay-in-1-line'>AGE:</p><input type="number" min='0'required=""
+                                                                     style="width: 10%;text-align: center" name="age"></p>
+                            <p>
+                            <p class='stay-in-1-line'>NATIONALITY:</p><input type="text" required=""
+                                                                             style="width: 50%; text-align: center" name="nationality"></p>
+                            <p class='stay-in-1-line'>THUMBNAIL IMAGE:</p><input id="file" type="file"
+                                                                                 style="display:inline;" name="thumbnail"></p>
+                            <p>
+                            <p class='stay-in-1-line'>BANNER IMAGE:</p><input id="file" type="file"
+                                                                              style="display:inline;" name="banner"></p>
+
+                            <p>CONTENT</p>
+                            <textarea style="width:100%;" rows="10" name="content"></textarea>
+                            <br>
+
+                            <div style="display:flex;justify-content: center;">
+                                <input type="submit" style="align:center;" value="upload" onclick="check()">
+                            </div>
+                            <br>
+                            <div class="clearfix"></div>
+                            <br>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'footer.html' %}
+</body>
+</html>

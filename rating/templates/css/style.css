@@ -4,8 +4,15 @@ h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
-	font-family: 'Roboto Condensed', sans-serif;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
 	background:#3f444e;
+}
+hr{
+	background-color:red;
+	height:2px;
+	size:1em;
+	width:100%;
+	;
 }
 body a{
 	transition:0.5s all;
@@ -157,13 +164,13 @@ border-top-right-radius: 3px;
 	background: url(../images/img_sprite.png) -216px -9px;
 }
 ul.header_right_box{
-	padding:0;
-	margin: 0 0 0 33%;
+	/*padding:0;*/
+	margin: 0 auto;
 	list-style:none;
 	
 }
 ul.header_right_box li{
-	float: left;
+	float: right;
 	margin: 0 3%;
 }
 ul.header_right_box li p{
@@ -1276,7 +1283,9 @@ text-transform: uppercase;
 	display: block;
 	
 }
-.login-right input[type="text"] {
+.login-right input[type="text"],
+.login-right input[type="password"]
+{
 	border: 1px solid #E4E4E4;
 	outline-color:#d8232a;
 	width: 96%;
@@ -1325,6 +1334,8 @@ p.cart {
 	margin: 0;
 	
 }
+
+
 .register-top-grid div, .register-bottom-grid div {
 	width: 48%;
 	float:left;
@@ -1337,8 +1348,17 @@ p.cart {
 	
 	font-size:1em;
 }
+
+
+.register-top-grid hr{
+	color:yellow;
+	height:5px;
+	size:1em;
+}
+
 .register-top-grid input[type="text"],
 .register-top-grid input[type="email"],
+.register-top-grid input[type="password"],
 .register-bottom-grid input[type="text"],
 .register-bottom-grid input[type="password"]
 {
@@ -1743,12 +1763,72 @@ h2.m_3 {
     text-align:center;
 }
 }
-
-.single-banner{
-	width:100%;
+.stay-in-1-line {
+display:inline-block;
+width:20%
+}
+.Upload p{
+	line-height: 3em;
 }
 
-.review{
-	line-height: 1;
+.Upload h3, .Upload h3 {
+	color:#000;
+	font-size:1.5em;
+	padding-bottom:20px;
+	margin: 0;
+	
+}
+
+
+.Upload div, .Upload div {
+	width: 100%;
+	float:left;
+	margin: 10px 0;
+}
+.Upload span, .Upload span {
+	color:#999;
+	
+	display: block;
+	
+	font-size:1em;
+}
+
+
+.Upload hr{
+	color:yellow;
+	height:5px;
+	size:1em;
+	margin:2em 0em;
+}
+
+.Upload input[type="text"],
+.Upload input[type="email"],
+.Upload input[type="password"]
+{
+	border: 1px solid #EEE;
+	outline-color:#FF5B36;
+	width: 98%;
+	font-size: 1em;
+	padding: 0;
+	-webkit-appearance: none;
+	margin-bottom: 1em;
+	line-height:200%;
+}
+
+.Upload input[type="submit"] ,
+.Upload input[type="button"] {
+	background: #df1f26;
+color: #FFF;
+font-size: 1em;
+padding: 5px 20px;
+transition: 0.5s all;
+-webkit-transition: 0.5s all;
+-moz-transition: 0.5s all;
+-o-transition: 0.5s all;
+display: inline-block;
+text-transform: uppercase;
+border: none;
+outline: none;
 
 }
+

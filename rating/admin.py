@@ -5,5 +5,4 @@ from rating.models import *
 
 admin.site.register(Article)
 admin.site.register(R_User)
-admin.site.register(Score)
 admin.site.register(Comment)

@@ -51,7 +51,7 @@
     <link rel="stylesheet" id="fontello-css" href="a_data/fontello.css" type="text/css" media="all">
     <link rel="stylesheet" id="main-style-css" href="a_data/style.css" type="text/css" media="all">
     <link rel="stylesheet" id="theme-regular-css" href="a_data/regular.css" type="text/css" media="all">
-<link rel="stylesheet" id="theme-font-css" href="a_data/css.css" type="text/css" media="all">
+    <link rel="stylesheet" id="theme-font-css" href="a_data/css.css" type="text/css" media="all">
     <link rel="stylesheet" id="shortcodes-css" href="a_data/shortcodes.css" type="text/css" media="all">
     <!--style id="shortcodes-inline-css" type="text/css">
 	        body, button, input, select, textarea {
@@ -248,7 +248,7 @@
     <script type="text/javascript" src="a_data/jquery-scroll-to.js"></script>
 
     <script type="text/javascript" src="a_data/buddypress.js"></script>
-      <link rel="canonical" href="a.html">
+    <link rel="canonical" href="a.html">
     <link rel="shortlink" href="a.html">
     <link rel="alternate" type="application/json+oembed"
           href="http://puzzles.themerex.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpuzzles.themerex.net%2F">
@@ -256,54 +256,60 @@
           href="http://puzzles.themerex.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpuzzles.themerex.net%2F&amp;format=xml">
     <script type="text/javascript">var ajaxurl = 'http://puzzles.themerex.net/wp-admin/admin-ajax.php';</script>
     <style type="text/css">.recentcomments a {
-        display: inline ;
-        padding: 0 ;
-        margin: 0 ;
+        display: inline;
+        padding: 0;
+        margin: 0;
     }</style>
 </head>
 
 <body>
 <div style="font-family: 'Oxygen', sans-serif;">
-    <style>a{
-	text-decoration:none;
-}
+    <style>a {
+        text-decoration: none;
+    }
     </style>
-<div class="home-page home page-template-default page page-id-2 theme_regular puzzles_heavy reviews_5 puzzles_animations wide js">
-<!--[if lt IE 9]>
+    <div class="home-page home page-template-default page page-id-2 theme_regular puzzles_heavy reviews_5 puzzles_animations wide js" alt="{% for a in content %}
+                 {{ a.category }}
+                 {{ a.title }}
+                 {% endfor %}">
+        <!--[if lt IE 9]>
 	<div class="sc_infobox sc_infobox_style_error"><div style="text-align:center;">It looks like you're using an old version of Internet Explorer. For the best WordPress experience, please <a href="http://microsoft.com" style="color:#191919">update your browser</a> or learn how to <a href="http://browsehappy.com" style="color:#222222">browse happy</a>!</div></div>
 <![endif]-->
-            <div class="post_content without_paddings">
-                <div itemprop="" class="post_text_area">
-                    <div class="sc_section sc_puzzles" style="margin-bottom:-1px;margin-right:-1px;overflow:hidden;">
-                        <div class="sc_blogger_item sc_blogger_item_puzzles odd first">
-                            <div class="post_thumb image_wrapper post_format_gallery left-1 heavy_inited "><a
-                                    href="http://puzzles.themerex.net/stargate/"><img class="wp-post-image" alt="Ripd"
-                                                                                      src="a_data/gear-of-war-1-310x310.jpg"
-                                                                                      height="310" width="310"></a><span
-                                    class="post_category theme_accent_bg"
-                                    style="background-color: #00a0db">Movies</span>
-                                <div class="post_content_wrapper theme_puzzles" style="background-color:#0080af;"><h2
-                                        class="post_subtitle"><a href="http://puzzles.themerex.net/stargate/">Ripd</a>
-                                </h2>
-                                    <div class="reviews_summary blog_reviews theme_puzzles"
-                                         style="background-color:#0080af;">
-                                        <div class="criteria_summary criteria_row"><span class="criteria_stars"
-                                                                                         title="2.6 from 5">
+        <div class="post_content without_paddings">
+            <div itemprop="" class="post_text_area">
+                <div class="sc_section sc_puzzles" style="margin-bottom:-1px;margin-right:-1px;overflow:hidden;">
+                    <div class="sc_blogger_item sc_blogger_item_puzzles odd first">
+                        <div class="post_thumb image_wrapper post_format_gallery left-1 heavy_inited "><a
+                                href="detail-{{ content.0.title }}"><img class="wp-post-image" alt="Ripd"
+                                                                                  src="{{ content.0.thumbnail.url }}"
+                                                                                  height="310" width="310"></a><span
+                                class="post_category theme_accent_bg"
+                                style="background-color: #00a0db">{{ content.0.category }}</span>
+                            <div class="post_content_wrapper theme_puzzles" style="background-color:#0080af;"><h2
+                                    class="post_subtitle"><a href="detail-{{ content.0.title }}">{{ content.0.title }}</a>
+                            </h2>
+                                <div class="reviews_summary blog_reviews theme_puzzles"
+                                     style="background-color:#0080af;">
+                                    <div class="criteria_summary criteria_row"><span class="criteria_stars"
+                                                                                     title="2.6 from 5">
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
-					<span class="stars_on" style="width:52%;"><span class="theme_stars theme_stars_on"></span><span
+					<span id='0' class="stars_on" style="width:52%;"><span class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
+                 <script>
+                var a = {{ content.0.AVG }};
+                var b = a / 5 * 100;
+                document.getElementById('0').style.width = b + '%';
+            </script>
 				</span></div>
-                                    </div>
-                                    <div class="post_descr"><p>An interstellar
-                                        teleportation device, found in Egypt, leads to a planet with humans
-                                        resembling ancient Egyptians who worship the god Ra</p>
-                                    </div>
-                                    <div class="post_content_padding theme_puzzles" style="
+                                </div>
+                                <div class="post_descr"><p>{{ content.0.content }}</p>
+                                </div>
+                                <div class="post_content_padding theme_puzzles" style="
 						background: -moz-linear-gradient(top,  rgba(0,128,175,0) 0%, rgba(0,128,175,0.01) 1%, rgba(0,128,175,1) 50%);
 						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,128,175,0)), color-stop(1%,rgba(0,128,175,0.01)), color-stop(50%,rgba(0,128,175,1)));
 						background: -webkit-linear-gradient(top,  rgba(0,128,175,0) 0%,rgba(0,128,175,0.01) 1%,rgba(0,128,175,1) 50%);
@@ -312,50 +318,25 @@
 						background: linear-gradient(to bottom,  rgba(0,128,175,0) 0%,rgba(0,128,175,0.01) 1%,rgba(0,128,175,1) 50%);
 						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000080af', endColorstr='#0080af',GradientType=0 );
 						"></div>
-                                </div>
                             </div>
                         </div>
-                        <div class="sc_blogger_item sc_blogger_item_puzzles even">
-                            <div class="post_thumb image_wrapper post_format_gallery down-1 heavy_inited"><a
-                                    href="http://puzzles.themerex.net/star-trek-into-darkness/"><img
-                                    class="wp-post-image" alt="hit.jpg" src="a_data/hit-310x310.jpg" height="310"
-                                    width="310"></a><!-->
-                                <div class="sc_slider sc_slider_flex inited">
-                                    <ul class="slides">
-                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;"
-                                            class=""><img class="wp-post-image" alt="star-trek-1.jpg"
-                                                          src="a_data/star-trek-1-310x310.jpg" height="310" width="310">
-                                        </li>
-                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;"
-                                            class=""><img class="wp-post-image" alt="star-trek-2.jpg"
-                                                          src="a_data/star-trek-2-310x310.jpg" height="310" width="310">
-                                        </li>
-                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;"
-                                            class=""><img class="wp-post-image" alt="star-trek-3.jpg"
-                                                          src="a_data/star-trek-3-310x310.jpg" height="310" width="310">
-                                        </li>
-                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;"
-                                            class="flex-active-slide"><img class="wp-post-image" alt="hit.jpg"
-                                                                           src="a_data/hit-310x310.jpg" height="310"
-                                                                           width="310"></li>
-                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative;">
-                                            <img class="wp-post-image" alt="gear-of-war-1.jpg"
-                                                 src="a_data/gear-of-war-1-310x310.jpg" height="310" width="310"></li>
-                                    </ul>
-                                    <ul class="flex-direction-nav">
-                                        <li><a class="flex-prev" href="#"></a></li>
-                                        <li><a class="flex-next" href="#"></a></li>
-                                    </ul>
-                                </div>
-                                </a><--><span class="post_category theme_accent_bg" style="background-color: #00a0db">Movies</span>
-                                <div class="post_content_wrapper theme_puzzles" style="background-color:#111111;"><h2
-                                        class="post_subtitle"><a
-                                        href="http://puzzles.themerex.net/star-trek-into-darkness/">Star Trek Into
-                                    Darkness</a></h2>
-                                    <div class="reviews_summary blog_reviews theme_puzzles"
-                                         style="background-color:#111111;">
-                                        <div class="criteria_summary criteria_row"><span class="criteria_stars"
-                                                                                         title="4.6 from 5">
+                    </div>
+                    <div class="sc_blogger_item sc_blogger_item_puzzles even">
+                        <div class="post_thumb image_wrapper post_format_gallery down-1 heavy_inited"><a
+                                href="detail-{{ content.1.title }}"><img
+                                class="wp-post-image" alt="hit.jpg" src="{{ content.1.thumbnail.url }}" height="310"
+                                width="310"></a><!-->
+
+                            </a><--><span class="post_category theme_accent_bg"
+                                          style="background-color: #00a0db">{{ content.1.category }}</span>
+                            <div class="post_content_wrapper theme_puzzles" style="background-color:#111111;"><h2
+                                    class="post_subtitle"><a
+                                    href="http://puzzles.themerex.net/star-trek-into-darkness/">Star Trek Into
+                                Darkness</a></h2>
+                                <div class="reviews_summary blog_reviews theme_puzzles"
+                                     style="background-color:#111111;">
+                                    <div class="criteria_summary criteria_row"><span class="criteria_stars"
+                                                                                     title="4.6 from 5">
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
@@ -365,11 +346,11 @@
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
 				</span></div>
-                                    </div>
-                                    <div class="post_descr"><p>After the crew of the Enterprise find an unstoppable
-                                        force of terror from within their own organization..</p>
-                                    </div>
-                                    <div class="post_content_padding theme_puzzles" style="
+                                </div>
+                                <div class="post_descr"><p>After the crew of the Enterprise find an unstoppable
+                                    force of terror from within their own organization..</p>
+                                </div>
+                                <div class="post_content_padding theme_puzzles" style="
 						background: -moz-linear-gradient(top,  rgba(17,17,17,0) 0%, rgba(17,17,17,0.01) 1%, rgba(17,17,17,1) 50%);
 						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(17,17,17,0)), color-stop(1%,rgba(17,17,17,0.01)), color-stop(50%,rgba(17,17,17,1)));
 						background: -webkit-linear-gradient(top,  rgba(17,17,17,0) 0%,rgba(17,17,17,0.01) 1%,rgba(17,17,17,1) 50%);
@@ -378,25 +359,25 @@
 						background: linear-gradient(to bottom,  rgba(17,17,17,0) 0%,rgba(17,17,17,0.01) 1%,rgba(17,17,17,1) 50%);
 						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00111111', endColorstr='#111111',GradientType=0 );
 						"></div>
-                                </div>
                             </div>
                         </div>
-                        <div class="sc_blogger_item sc_blogger_item_puzzles odd">
-                            <div class="post_thumb image_wrapper post_format_gallery right-2 heavy_inited"><a
-                                    href="http://puzzles.themerex.net/iron-man-3/"><img class="wp-post-image"
-                                                                                        alt="Iron Man"
-                                                                                        src="a_data/iron-man-1-310x310.jpg"
-                                                                                        height="310"
-                                                                                        width="310"></a><span
-                                    class="post_category theme_accent_bg"
-                                    style="background-color: #00a0db">Movies</span>
-                                <div class="post_content_wrapper theme_puzzles" style="background-color:#9a0000;"><h2
-                                        class="post_subtitle"><a href="http://puzzles.themerex.net/iron-man-3/">Iron
-                                    Man</a></h2>
-                                    <div class="reviews_summary blog_reviews theme_puzzles"
-                                         style="background-color:#9a0000;">
-                                        <div class="criteria_summary criteria_row"><span class="criteria_stars"
-                                                                                         title="3.5 from 5">
+                    </div>
+                    <div class="sc_blogger_item sc_blogger_item_puzzles odd">
+                        <div class="post_thumb image_wrapper post_format_gallery right-2 heavy_inited"><a
+                                href="detail-{{ content.2.title }}"><img class="wp-post-image"
+                                                                                    alt="Iron Man"
+                                                                                    src="{{ content.2.thumbnail.url }}"
+                                                                                    height="310"
+                                                                                    width="310"></a><span
+                                class="post_category theme_accent_bg"
+                                style="background-color: #00a0db">{{ content.2.category }}</span>
+                            <div class="post_content_wrapper theme_puzzles" style="background-color:#9a0000;"><h2
+                                    class="post_subtitle"><a href="http://puzzles.themerex.net/iron-man-3/">Iron
+                                Man</a></h2>
+                                <div class="reviews_summary blog_reviews theme_puzzles"
+                                     style="background-color:#9a0000;">
+                                    <div class="criteria_summary criteria_row"><span class="criteria_stars"
+                                                                                     title="3.5 from 5">
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
@@ -406,12 +387,12 @@
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
 				</span></div>
-                                    </div>
-                                    <div class="post_descr"><p>When Tony Stark’s
-                                        world is torn apart by a formidable terrorist called the Mandarin, he
-                                        starts an odyssey of rebuilding and retribution</p>
-                                    </div>
-                                    <div class="post_content_padding theme_puzzles" style="
+                                </div>
+                                <div class="post_descr"><p>When Tony Stark’s
+                                    world is torn apart by a formidable terrorist called the Mandarin, he
+                                    starts an odyssey of rebuilding and retribution</p>
+                                </div>
+                                <div class="post_content_padding theme_puzzles" style="
 						background: -moz-linear-gradient(top,  rgba(154,0,0,0) 0%, rgba(154,0,0,0.01) 1%, rgba(154,0,0,1) 50%);
 						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(154,0,0,0)), color-stop(1%,rgba(154,0,0,0.01)), color-stop(50%,rgba(154,0,0,1)));
 						background: -webkit-linear-gradient(top,  rgba(154,0,0,0) 0%,rgba(154,0,0,0.01) 1%,rgba(154,0,0,1) 50%);
@@ -420,22 +401,22 @@
 						background: linear-gradient(to bottom,  rgba(154,0,0,0) 0%,rgba(154,0,0,0.01) 1%,rgba(154,0,0,1) 50%);
 						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009a0000', endColorstr='#9a0000',GradientType=0 );
 						"></div>
-                                </div>
                             </div>
                         </div>
-                        <div class="sc_blogger_item sc_blogger_item_puzzles odd first">
-                            <div class="post_thumb image_wrapper post_format_ down-1 heavy_inited "><a
-                                    href="http://puzzles.themerex.net/grid-2/"><img class="wp-post-image" alt="Grid"
-                                                                                    src="a_data/24-310x310.jpg"
-                                                                                    height="310" width="310"></a><span
-                                    class="post_category theme_accent_bg" style="background-color: #e99f00">Games</span>
-                                <div class="post_content_wrapper theme_puzzles" style="background-color:#222222;"><h2
-                                        class="post_subtitle"><a href="http://puzzles.themerex.net/grid-2/">Grid</a>
-                                </h2>
-                                    <div class="reviews_summary blog_reviews theme_puzzles"
-                                         style="background-color:#222222;">
-                                        <div class="criteria_summary criteria_row"><span class="criteria_stars"
-                                                                                         title="3.7 from 5">
+                    </div>
+                    <div class="sc_blogger_item sc_blogger_item_puzzles odd first">
+                        <div class="post_thumb image_wrapper post_format_ down-1 heavy_inited "><a
+                                href="detail-{{ content.3.title }}"><img class="wp-post-image" alt="Grid"
+                                                                                src="{{ content.3.thumbnail.url }}"
+                                                                                height="310" width="310"></a><span
+                                class="post_category theme_accent_bg" style="background-color: #e99f00">{{ content.3.category }}</span>
+                            <div class="post_content_wrapper theme_puzzles" style="background-color:#222222;"><h2
+                                    class="post_subtitle"><a href="http://puzzles.themerex.net/grid-2/">Grid</a>
+                            </h2>
+                                <div class="reviews_summary blog_reviews theme_puzzles"
+                                     style="background-color:#222222;">
+                                    <div class="criteria_summary criteria_row"><span class="criteria_stars"
+                                                                                     title="3.7 from 5">
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
@@ -445,13 +426,13 @@
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
 				</span></div>
-                                    </div>
-                                    <div class="post_descr"><p>Aliquam varius magna
-                                        nec nunc dignissim suscipit. Phasellus faucibus aliquam euismod. Aliquam
-                                        rutrum eget justo eget scelerisque. Nam blandit augue libero, at
-                                        condimentum odio vestibulum in…</p>
-                                    </div>
-                                    <div class="post_content_padding theme_puzzles" style="
+                                </div>
+                                <div class="post_descr"><p>Aliquam varius magna
+                                    nec nunc dignissim suscipit. Phasellus faucibus aliquam euismod. Aliquam
+                                    rutrum eget justo eget scelerisque. Nam blandit augue libero, at
+                                    condimentum odio vestibulum in…</p>
+                                </div>
+                                <div class="post_content_padding theme_puzzles" style="
 						background: -moz-linear-gradient(top,  rgba(34,34,34,0) 0%, rgba(34,34,34,0.01) 1%, rgba(34,34,34,1) 50%);
 						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,34,34,0)), color-stop(1%,rgba(34,34,34,0.01)), color-stop(50%,rgba(34,34,34,1)));
 						background: -webkit-linear-gradient(top,  rgba(34,34,34,0) 0%,rgba(34,34,34,0.01) 1%,rgba(34,34,34,1) 50%);
@@ -460,24 +441,24 @@
 						background: linear-gradient(to bottom,  rgba(34,34,34,0) 0%,rgba(34,34,34,0.01) 1%,rgba(34,34,34,1) 50%);
 						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00222222', endColorstr='#222222',GradientType=0 );
 						"></div>
-                                </div>
                             </div>
                         </div>
-                        <div class="sc_blogger_item sc_blogger_item_puzzles even">
-                            <div class="post_thumb image_wrapper post_format_ left-2 heavy_inited"><a
-                                    href="http://puzzles.themerex.net/gear-of-war/"><img class="wp-post-image"
-                                                                                         alt="Hitman"
-                                                                                         src="a_data/hit-310x310.jpg"
-                                                                                         height="310"
-                                                                                         width="310"></a><span
-                                    class="post_category theme_accent_bg" style="background-color: #e99f00">Games</span>
-                                <div class="post_content_wrapper theme_puzzles" style="background-color:#c95a00;"><h2
-                                        class="post_subtitle"><a
-                                        href="http://puzzles.themerex.net/gear-of-war/">Hitman</a></h2>
-                                    <div class="reviews_summary blog_reviews theme_puzzles"
-                                         style="background-color:#c95a00;">
-                                        <div class="criteria_summary criteria_row"><span class="criteria_stars"
-                                                                                         title="4.7 from 5">
+                    </div>
+                    <div class="sc_blogger_item sc_blogger_item_puzzles even">
+                        <div class="post_thumb image_wrapper post_format_ left-2 heavy_inited"><a
+                                href="detail-{{ content.4.title }}"><img class="wp-post-image"
+                                                                                     alt="Hitman"
+                                                                                     src="{{ content.4.thumbnail.url }}"
+                                                                                     height="310"
+                                                                                     width="310"></a><span
+                                class="post_category theme_accent_bg" style="background-color: #e99f00">Games</span>
+                            <div class="post_content_wrapper theme_puzzles" style="background-color:#c95a00;"><h2
+                                    class="post_subtitle"><a
+                                    href="http://puzzles.themerex.net/gear-of-war/">Hitman</a></h2>
+                                <div class="reviews_summary blog_reviews theme_puzzles"
+                                     style="background-color:#c95a00;">
+                                    <div class="criteria_summary criteria_row"><span class="criteria_stars"
+                                                                                     title="4.7 from 5">
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
@@ -487,11 +468,11 @@
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
 				</span></div>
-                                    </div>
-                                    <div class="post_descr"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Nullam vel enim enim</p>
-                                    </div>
-                                    <div class="post_content_padding theme_puzzles" style="
+                                </div>
+                                <div class="post_descr"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nullam vel enim enim</p>
+                                </div>
+                                <div class="post_content_padding theme_puzzles" style="
 						background: -moz-linear-gradient(top,  rgba(201,90,0,0) 0%, rgba(201,90,0,0.01) 1%, rgba(201,90,0,1) 50%);
 						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,90,0,0)), color-stop(1%,rgba(201,90,0,0.01)), color-stop(50%,rgba(201,90,0,1)));
 						background: -webkit-linear-gradient(top,  rgba(201,90,0,0) 0%,rgba(201,90,0,0.01) 1%,rgba(201,90,0,1) 50%);
@@ -500,25 +481,25 @@
 						background: linear-gradient(to bottom,  rgba(201,90,0,0) 0%,rgba(201,90,0,0.01) 1%,rgba(201,90,0,1) 50%);
 						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c95a00', endColorstr='#c95a00',GradientType=0 );
 						"></div>
-                                </div>
                             </div>
                         </div>
-                        <div class="sc_blogger_item sc_blogger_item_puzzles odd">
-                            <div class="post_thumb image_wrapper post_format_ down-2 heavy_inited"><a
-                                    href="http://puzzles.themerex.net/prejudice/"><img class="wp-post-image" alt="GTA V"
-                                                                                       src="a_data/21-310x310.jpg"
-                                                                                       height="310"
-                                                                                       width="310"></a><span
-                                    class="post_category theme_accent_bg" style="background-color: #e99f00">Games</span>
-                                <div class="post_content_wrapper theme_puzzles" style="background-color:#111111;"><h2
-                                        class="post_subtitle"><a href="http://puzzles.themerex.net/prejudice/">GTA V</a>
-                                </h2>
-                                    <div class="post_descr"><p>Sed
-                                        id quam eu arcu dapibus pharetra ut vel purus. Aliquam porttitor quam
-                                        vel lacus volutpat rhoncus. Curabitur imperdiet tellus quis sapien
-                                        egestas convallis. Cum sociis natoque penatibus et…</p>
-                                    </div>
-                                    <div class="post_content_padding theme_puzzles" style="
+                    </div>
+                    <div class="sc_blogger_item sc_blogger_item_puzzles odd">
+                        <div class="post_thumb image_wrapper post_format_ down-2 heavy_inited"><a
+                                href="detail-{{ content.5.title }}"><img class="wp-post-image" alt="GTA V"
+                                                                                   src="{{ content.5.thumbnail.url }}"
+                                                                                   height="310"
+                                                                                   width="310"></a><span
+                                class="post_category theme_accent_bg" style="background-color: #e99f00">Games</span>
+                            <div class="post_content_wrapper theme_puzzles" style="background-color:#111111;"><h2
+                                    class="post_subtitle"><a href="http://puzzles.themerex.net/prejudice/">GTA V</a>
+                            </h2>
+                                <div class="post_descr"><p>Sed
+                                    id quam eu arcu dapibus pharetra ut vel purus. Aliquam porttitor quam
+                                    vel lacus volutpat rhoncus. Curabitur imperdiet tellus quis sapien
+                                    egestas convallis. Cum sociis natoque penatibus et…</p>
+                                </div>
+                                <div class="post_content_padding theme_puzzles" style="
 						background: -moz-linear-gradient(top,  rgba(17,17,17,0) 0%, rgba(17,17,17,0.01) 1%, rgba(17,17,17,1) 50%);
 						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(17,17,17,0)), color-stop(1%,rgba(17,17,17,0.01)), color-stop(50%,rgba(17,17,17,1)));
 						background: -webkit-linear-gradient(top,  rgba(17,17,17,0) 0%,rgba(17,17,17,0.01) 1%,rgba(17,17,17,1) 50%);
@@ -527,25 +508,25 @@
 						background: linear-gradient(to bottom,  rgba(17,17,17,0) 0%,rgba(17,17,17,0.01) 1%,rgba(17,17,17,1) 50%);
 						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00111111', endColorstr='#111111',GradientType=0 );
 						"></div>
-                                </div>
                             </div>
                         </div>
-                        <div class="sc_blogger_item sc_blogger_item_puzzles odd first">
-                            <div class="post_thumb image_wrapper post_format_ right-1 heavy_inited"><a
-                                    href="http://puzzles.themerex.net/xbox-one/"><img class="wp-post-image"
-                                                                                      alt="XBox One"
-                                                                                      src="a_data/xbox-1-310x310.jpg"
-                                                                                      height="310" width="310"></a><span
-                                    class="post_category theme_accent_bg" style="background-color: #96d400">Tech</span>
-                                <div class="post_content_wrapper theme_puzzles" style="background-color:#222222;"><h2
-                                        class="post_subtitle"><a href="http://puzzles.themerex.net/xbox-one/">XBox
-                                    One</a></h2>
-                                    <div class="post_descr"><p>Lorem
-                                        ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel enim
-                                        enim. Proin tortor diam, ultricies quis quam sed, vulputate mollis arcu.
-                                        Sed a sem vel urna vehicula gravida. Nullam dui…</p>
-                                    </div>
-                                    <div class="post_content_padding theme_puzzles" style="
+                    </div>
+                    <div class="sc_blogger_item sc_blogger_item_puzzles odd first">
+                        <div class="post_thumb image_wrapper post_format_ right-1 heavy_inited"><a
+                                href="detail-{{ content.6.title }}"><img class="wp-post-image"
+                                                                                  alt="XBox One"
+                                                                                  src="{{ content.6.thumbnail.url }}"
+                                                                                  height="310" width="310"></a><span
+                                class="post_category theme_accent_bg" style="background-color: #96d400">Tech</span>
+                            <div class="post_content_wrapper theme_puzzles" style="background-color:#222222;"><h2
+                                    class="post_subtitle"><a href="http://puzzles.themerex.net/xbox-one/">XBox
+                                One</a></h2>
+                                <div class="post_descr"><p>Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel enim
+                                    enim. Proin tortor diam, ultricies quis quam sed, vulputate mollis arcu.
+                                    Sed a sem vel urna vehicula gravida. Nullam dui…</p>
+                                </div>
+                                <div class="post_content_padding theme_puzzles" style="
 						background: -moz-linear-gradient(top,  rgba(34,34,34,0) 0%, rgba(34,34,34,0.01) 1%, rgba(34,34,34,1) 50%);
 						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,34,34,0)), color-stop(1%,rgba(34,34,34,0.01)), color-stop(50%,rgba(34,34,34,1)));
 						background: -webkit-linear-gradient(top,  rgba(34,34,34,0) 0%,rgba(34,34,34,0.01) 1%,rgba(34,34,34,1) 50%);
@@ -554,25 +535,25 @@
 						background: linear-gradient(to bottom,  rgba(34,34,34,0) 0%,rgba(34,34,34,0.01) 1%,rgba(34,34,34,1) 50%);
 						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00222222', endColorstr='#222222',GradientType=0 );
 						"></div>
-                                </div>
                             </div>
                         </div>
-                        <div class="sc_blogger_item sc_blogger_item_puzzles odd first">
-                            <div class="post_thumb image_wrapper post_format_audio down-3 heavy_inited "><a
-                                    href="http://puzzles.themerex.net/duft-punk-get-lucky/"><img class="wp-post-image"
-                                                                                                 alt="Duft punk – Get lucky"
-                                                                                                 src="a_data/Layer-15-310x310.jpg"
-                                                                                                 height="310"
-                                                                                                 width="310"></a><span
-                                    class="post_category theme_accent_bg" style="background-color: #f03232">Music</span>
-                                <div class="post_content_wrapper theme_puzzles" style="background-color:#a01c43;"><h2
-                                        class="post_subtitle"><a
-                                        href="http://puzzles.themerex.net/duft-punk-get-lucky/">Duft punk – Get
-                                    lucky</a></h2>
-                                    <div class="reviews_summary blog_reviews theme_puzzles"
-                                         style="background-color:#a01c43;">
-                                        <div class="criteria_summary criteria_row"><span class="criteria_stars"
-                                                                                         title="5.0 from 5">
+                    </div>
+                    <div class="sc_blogger_item sc_blogger_item_puzzles odd first">
+                        <div class="post_thumb image_wrapper post_format_audio down-3 heavy_inited "><a
+                                href="detail-{{ content.7.title }}"><img class="wp-post-image"
+                                                                                             alt="Duft punk – Get lucky"
+                                                                                             src="{{ content.7.thumbnail.url }}"
+                                                                                             height="310"
+                                                                                             width="310"></a><span
+                                class="post_category theme_accent_bg" style="background-color: #f03232">Music</span>
+                            <div class="post_content_wrapper theme_puzzles" style="background-color:#a01c43;"><h2
+                                    class="post_subtitle"><a
+                                    href="http://puzzles.themerex.net/duft-punk-get-lucky/">Duft punk – Get
+                                lucky</a></h2>
+                                <div class="reviews_summary blog_reviews theme_puzzles"
+                                     style="background-color:#a01c43;">
+                                    <div class="criteria_summary criteria_row"><span class="criteria_stars"
+                                                                                     title="5.0 from 5">
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
@@ -582,13 +563,13 @@
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
 				</span></div>
-                                    </div>
-                                    <div class="post_descr"><p>Ut pretium tristique
-                                        dui, eu sagittis mauris mollis vel. Pellentesque eget nulla ipsum. Fusce
-                                        hendrerit felis a lacus euismod tincidunt consectetur eget tellus. Nam
-                                        placerat, magna eu molestie…</p>
-                                    </div>
-                                    <div class="post_content_padding theme_puzzles" style="
+                                </div>
+                                <div class="post_descr"><p>Ut pretium tristique
+                                    dui, eu sagittis mauris mollis vel. Pellentesque eget nulla ipsum. Fusce
+                                    hendrerit felis a lacus euismod tincidunt consectetur eget tellus. Nam
+                                    placerat, magna eu molestie…</p>
+                                </div>
+                                <div class="post_content_padding theme_puzzles" style="
 						background: -moz-linear-gradient(top,  rgba(160,28,67,0) 0%, rgba(160,28,67,0.01) 1%, rgba(160,28,67,1) 50%);
 						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(160,28,67,0)), color-stop(1%,rgba(160,28,67,0.01)), color-stop(50%,rgba(160,28,67,1)));
 						background: -webkit-linear-gradient(top,  rgba(160,28,67,0) 0%,rgba(160,28,67,0.01) 1%,rgba(160,28,67,1) 50%);
@@ -597,15 +578,15 @@
 						background: linear-gradient(to bottom,  rgba(160,28,67,0) 0%,rgba(160,28,67,0.01) 1%,rgba(160,28,67,1) 50%);
 						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a01c43', endColorstr='#a01c43',GradientType=0 );
 						"></div>
-                                </div>
-                                <div class="mejs-clear"></div>
                             </div>
+                            <div class="mejs-clear"></div>
                         </div>
                     </div>
                 </div>
             </div>
-</div>
+        </div>
     </div>
+</div>
 </body>
 
 

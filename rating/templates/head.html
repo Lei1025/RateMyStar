@@ -1,0 +1,35 @@
+<div class="header_top">
+    <div class="col-sm-3 logo"><a href="index.html"><img src="images/logo.png" alt=""/></a></div>
+    <div class="col-sm-6 nav">
+        <ul>
+            <li><span class="simptip-position-bottom simptip-movable" data-tooltip="MUSICIAN"><a href="category-musicians"> </a></span>
+            </li>
+            <li><span class="simptip-position-bottom simptip-movable" data-tooltip="ACTOR"><a href="category-actors"> </a> </span>
+            </li>
+            <li><span class="simptip-position-bottom simptip-movable" data-tooltip="ATHLETE"><a href="category-athletes"> </a></span>
+            </li>
+            <li><span class="simptip-position-bottom simptip-movable" data-tooltip="MODEL"><a href="category-models"> </a></span>
+            </li>
+            <li><span class="simptip-position-bottom simptip-movable" data-tooltip="HOST"><a href="category-hosts"> </a></span></li>
+            <li><span class="simptip-position-bottom simptip-movable" data-tooltip="AUTHOR"><a href="category-authors"> </a></span>
+            </li>
+        </ul>
+    </div>
+    <div class="col-sm-3 header_right">
+        <ul class="header_right_box">
+            {% if request.user.is_authenticated %}
+                 <li style="margin-top:5px" ><a href={% url 'rating:logout' %}><img src="images/logout-button.png" height="20px" width="20px"></a></li>
+            <li><p style="font-size: large"><a href="upload.html">{{ request.user.username }}</a></p></li>
+                <li><img src={{ request.user.profile.profile.url }} width="30" height="30" alt=""/></li>
+
+            {% else %}
+            <li class="last"><i class="edit"> </i></li>
+            <li><p><a href="login.html">Login or Sign Up</a></p></li>
+
+            {% endif %}
+
+            <div class="clearfix"></div>
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+</div>

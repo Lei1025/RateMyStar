@@ -262,12 +262,12 @@
                 <input name="reviews_id" class="reviews_id" value="reviews_marks_author" type="hidden">
                 <input name="criterias_list" class="criterias_list"
                        value="Habitaciones|1,Hotel|2,Ubicación|3,Servicios|4,Calidad/precio|5" type="hidden">
-                <input name="marks_list" class="marks_list" value="4,5,4,5,5" type="hidden">
+                <input name="marks_list" class="marks_list" value="1,1,1,1,1" type="hidden">
                 <div class="reviews_data">
 
                     <div class="criteria_row theme_field">
-                        <input name="reviews_marks_author[]" value="2.5" type="hidden">
-                        <span class="criteria_label theme_strong">Habitaciones</span><span class="criteria_stars"><span
+                        <input name="reviews_marks_author[]" value="{{ article.C1 }}" type="hidden">
+                        <span class="criteria_label theme_strong">Personal Image</span><span class="criteria_stars"><span
                             class="theme_stars theme_stars_on" data-mark="1"></span><span
                             class="theme_stars theme_stars_on" data-mark="2"></span><span
                             class="theme_stars theme_stars_on" data-mark="3"></span><span
@@ -277,8 +277,8 @@
                     </div>
 
                     <div class="criteria_row theme_field">
-                        <input name="reviews_marks_author[]" value="5" type="hidden">
-                        <span class="criteria_label theme_strong">Hotel</span><span class="criteria_stars"><span
+                        <input name="reviews_marks_author[]" value="{{ article.C2 }}" type="hidden">
+                        <span class="criteria_label theme_strong">Professional Ability</span><span class="criteria_stars"><span
                             class="theme_stars theme_stars_on" data-mark="1"></span><span
                             class="theme_stars theme_stars_on" data-mark="2"></span><span
                             class="theme_stars theme_stars_on" data-mark="3"></span><span
@@ -288,8 +288,8 @@
                     </div>
 
                     <div class="criteria_row theme_field">
-                        <input name="reviews_marks_author[]" value="4" type="hidden">
-                        <span class="criteria_label theme_strong">Ubicación</span><span class="criteria_stars"><span
+                        <input name="reviews_marks_author[]" value="{{ article.C3 }}" type="hidden">
+                        <span class="criteria_label theme_strong">Social Contribution</span><span class="criteria_stars"><span
                             class="theme_stars theme_stars_on" data-mark="1"></span><span
                             class="theme_stars theme_stars_on" data-mark="2"></span><span
                             class="theme_stars theme_stars_on" data-mark="3"></span><span
@@ -299,8 +299,8 @@
                     </div>
 
                     <div class="criteria_row theme_field">
-                        <input name="reviews_marks_author[]" value="5" type="hidden">
-                        <span class="criteria_label theme_strong">Servicios</span><span class="criteria_stars"><span
+                        <input name="reviews_marks_author[]" value="{{ article.C4 }}" type="hidden">
+                        <span class="criteria_label theme_strong">Reputation</span><span class="criteria_stars"><span
                             class="theme_stars theme_stars_on" data-mark="1"></span><span
                             class="theme_stars theme_stars_on" data-mark="2"></span><span
                             class="theme_stars theme_stars_on" data-mark="3"></span><span
@@ -310,8 +310,8 @@
                     </div>
 
                     <div class="criteria_row theme_field">
-                        <input name="reviews_marks_author[]" value="5" type="hidden">
-                        <span class="criteria_label theme_strong">Calidad/precio</span><span
+                        <input name="reviews_marks_author[]" value="{{ article.C5 }}" type="hidden">
+                        <span class="criteria_label theme_strong">Others</span><span
                             class="criteria_stars"><span class="theme_stars theme_stars_on" data-mark="1"></span><span
                             class="theme_stars theme_stars_on" data-mark="2"></span><span
                             class="theme_stars theme_stars_on" data-mark="3"></span><span
@@ -323,25 +323,30 @@
                 </div>
                 <div class="reviews_summary blog_reviews">
                     <div class="criteria_summary_text criteria_row theme_field">
-                       Summary rating from <span class="theme_strong">1</span>users' marks.
+                       Summary rating from <span class="theme_strong">{{ article.users }}</span>users' marks.
 
                     </div>
                     <div class="criteria_summary criteria_row theme_field">
                         <span class="criteria_label theme_strong">Summary</span>
                         <span itemscope="" itemprop="reviewRating" itemtype="http://schema.org/Rating"><meta
                                 itemprop="worstRating" content="0"><meta itemprop="bestRating" content="5"><meta
-                                itemprop="ratingValue" content="4.6"><span class="criteria_stars" title="4.6 from 5">
+                                itemprop="ratingValue" content="{{ article.AVG }}"><span class="criteria_stars" title="4.6 from 5">
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
-					<span class="stars_on" style="width:92%;"><span class="theme_stars theme_stars_on"></span><span
+					<span id='avg' class="stars_on" style="width:0%;"><span class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
 				</span></span>
-                        <span class="criteria_mark theme_accent_bg">4.6</span>
-                        <span class="criteria_word theme_accent_bg">muy bien</span>
+                        <script>
+    var a={{ article.AVG }};
+    var b=a/5*100;
+    document.getElementById('avg').style.width = b +'%';
+</script>
+                        <span class="criteria_mark theme_accent_bg">{{ article.AVG }}</span>
+
                     </div>
                 </div>
             </div>
@@ -354,8 +359,8 @@
                 <div class="reviews_data">
 
                     <div class="criteria_row theme_field">
-                        <input name="reviews_marks_users[]" value="0" type="hidden">
-                        <span class="criteria_label theme_strong">Habitaciones</span><span class="criteria_stars"><span
+                        <input  id="hab"  name="reviews_marks_users[]" value="0" type="hidden" >
+                        <span class="criteria_label theme_strong">Personal Image</span><span class="criteria_stars"><span
                             class="theme_stars theme_stars_on" data-mark="1"></span><span
                             class="theme_stars theme_stars_on" data-mark="2"></span><span
                             class="theme_stars theme_stars_on" data-mark="3"></span><span
@@ -365,8 +370,8 @@
                     </div>
 
                     <div class="criteria_row theme_field">
-                        <input name="reviews_marks_users[]" value="0" type="hidden">
-                        <span class="criteria_label theme_strong">Hotel</span><span class="criteria_stars"><span
+                        <input id="hot" name="reviews_marks_users[]" value="0" type="hidden">
+                        <span class="criteria_label theme_strong">Professional Ability</span><span class="criteria_stars"><span
                             class="theme_stars theme_stars_on" data-mark="1"></span><span
                             class="theme_stars theme_stars_on" data-mark="2"></span><span
                             class="theme_stars theme_stars_on" data-mark="3"></span><span
@@ -376,8 +381,8 @@
                     </div>
 
                     <div class="criteria_row theme_field">
-                        <input name="reviews_marks_users[]" value="0" type="hidden">
-                        <span class="criteria_label theme_strong">Ubicación</span><span class="criteria_stars"><span
+                        <input id="ubi" name="reviews_marks_users[]" value="0" type="hidden">
+                        <span class="criteria_label theme_strong">Social Contribution</span><span class="criteria_stars"><span
                             class="theme_stars theme_stars_on" data-mark="1"></span><span
                             class="theme_stars theme_stars_on" data-mark="2"></span><span
                             class="theme_stars theme_stars_on" data-mark="3"></span><span
@@ -387,8 +392,8 @@
                     </div>
 
                     <div class="criteria_row theme_field">
-                        <input name="reviews_marks_users[]" value="0" type="hidden">
-                        <span class="criteria_label theme_strong">Servicios</span><span class="criteria_stars"><span
+                        <input id="ser" name="reviews_marks_users[]" value="0" type="hidden">
+                        <span class="criteria_label theme_strong">Reputation</span><span class="criteria_stars"><span
                             class="theme_stars theme_stars_on" data-mark="1"></span><span
                             class="theme_stars theme_stars_on" data-mark="2"></span><span
                             class="theme_stars theme_stars_on" data-mark="3"></span><span
@@ -398,8 +403,8 @@
                     </div>
 
                     <div class="criteria_row theme_field">
-                        <input name="reviews_marks_users[]" value="0" type="hidden">
-                        <span class="criteria_label theme_strong">Calidad/precio</span><span
+                        <input id="cal"  name="reviews_marks_users[]" value="0" type="hidden">
+                        <span class="criteria_label theme_strong">Others</span><span
                             class="criteria_stars"><span class="theme_stars theme_stars_on" data-mark="1"></span><span
                             class="theme_stars theme_stars_on" data-mark="2"></span><span
                             class="theme_stars theme_stars_on" data-mark="3"></span><span
@@ -411,24 +416,25 @@
                 </div>
                 <div class="reviews_summary blog_reviews">
                     <div class="criteria_summary_text criteria_row theme_field">
-                        <div class="criteria_summary_descr">     You can set own marks for this article - just click on stars above and press
+                        <div class="criteria_summary_descr" >     You can set own marks for this article - just click on stars above and press
                             "Accept".
                         </div>
-                        <a href="#" class="theme_button reviews_users_accept">Accept</a></div>
+
+                        <a href="#" class="theme_button reviews_users_accept" onclick="ccc()" >Accept</a></div>
                     <div class="criteria_summary criteria_row theme_field">
                         <span class="criteria_label theme_strong">Summary</span>
                         <span class="criteria_stars" title="4.4 from 5">
 					<span class="stars_off"><span class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span><span class="theme_stars"></span><span
                             class="theme_stars"></span></span>
-					<span class="stars_on" style="width:88%;"><span class="theme_stars theme_stars_on"></span><span
+					<span class="stars_on" style="width:0%;"><span class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span><span
                             class="theme_stars theme_stars_on"></span></span>
 				</span>
-                        <span class="criteria_mark theme_accent_bg">4.4</span>
-                        <span class="criteria_word theme_accent_bg">muy bien</span>
+                        <span id="avg"   class="criteria_mark theme_accent_bg">0.0</span>
+                        <span class="criteria_word theme_accent_bg">Wating</span>
                     </div>
                 </div>
             </div>
@@ -436,10 +442,37 @@
     </div>
 </div>
 
+<script type="text/javascript"  >
+    
+  function ccc(){
+    document.getElementById("hab_form").value=document.getElementById("hab").value;
+    document.getElementById("hot_form").value=document.getElementById("hot").value;
+    document.getElementById("ubi_form").value=document.getElementById("ubi").value;
+    document.getElementById("ser_form").value=document.getElementById("ser").value;
+    document.getElementById("cal_form").value=document.getElementById("cal").value;
+    var average=document.getElementById("avg").innerHTML; 
+    document.getElementById("avg_form").value=average; 
 
+    alert("You have submitted");
+   
+
+
+    document.getElementById("all_data").submit();
+
+     //document.form1.submit();
+   //form1.submit();      
+
+}
+  
+    //JQuery.post("", {avg:dddd})
+    //.always(function(){alert('123')});
+    
+
+  
+</script>
 <script type="text/javascript">
     var reviews_max_level = 5;
-    var reviews_levels = "muy mal, mal, regular, bien, muy bien";
+    var reviews_levels = "Poor, Good, Normal, Great, Genuis";
     var reviews_vote = "";
     var allowUserReviews = true;
     jQuery(document).ready(function () {
@@ -457,19 +490,26 @@
                     jQuery(this).val(marks[idx]);
                     marks_cnt++;
                 });
-                if (marks.length > marks_cnt)
+               
+                if (marks.length > marks_cnt){
                     marks = marks.splice(marks_cnt, marks.length - marks_cnt)
+                }
+                
                 users++;
-
+             
                 jQuery.post(THEMEREX_ajax_url, {
+               // $.post(THEMEREX_ajax_url,{
                     action: 'reviews_users_accept',
                     nonce: THEMEREX_ajax_nonce,
                     post_id: 69,
                     marks: marks.join(','),
                     users: users
-                }).done(function (response) {
+                })  .done(function (response) {
+
                     var rez = JSON.parse(response);
+
                     if (rez.error === '') {
+                        
                         jQuery('.reviews_users .criteria_summary_text').removeClass('show_button').find('.criteria_summary_descr').html('Thanks for your vote! New average rating is:');
                         allowUserReviews = false;
                         jQuery.cookie('reviews_vote', reviews_vote + (reviews_vote.substr(-1) != ',' ? ',' : '') + 69 + ',', {
@@ -487,6 +527,7 @@
                         */
                         setAverageMark('reviews_users');
                     } else {
+                        
                         jQuery('.reviews_users .criteria_summary_text').removeClass('show_button').find('.criteria_summary_descr').html('Error saving your vote! Please, try again later.');
                     }
                 });
@@ -522,6 +563,67 @@
 <script type="text/javascript" src="review/draggable.js"></script>
 <script type="text/javascript" src="review/wp-embed.js"></script>
 <script type="text/javascript" src="review/tabs.js"></script>
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+    });
+
+    // Main menu settings
+    var THEMEREX_mainMenuFixed = true;
+    var THEMEREX_mainMenuMobile = true;
+    var THEMEREX_mainMenuMobileWidth = 800;
+    var THEMEREX_mainMenuSlider = true;
+
+    // Video and Audio tag wrapper
+    var THEMEREX_useMediaElement = true;
+
+    // Puzzles animations
+    var THEMEREX_puzzlesAnimations = false;
+    var THEMEREX_puzzlesStyle = 'light';
+
+    // Javascript String constants for translation
+    THEMEREX_GLOBAL_ERROR_TEXT = "Global error text";
+    THEMEREX_NAME_EMPTY = "The name can't be empty";
+    THEMEREX_NAME_LONG = "Too long name";
+    THEMEREX_EMAIL_EMPTY = "Too short (or empty) email address";
+    THEMEREX_EMAIL_LONG = "Too long email address";
+    THEMEREX_EMAIL_NOT_VALID = "Invalid email address";
+    THEMEREX_MESSAGE_EMPTY = "The message text can't be empty";
+    THEMEREX_MESSAGE_LONG = "Too long message text";
+    THEMEREX_SEND_COMPLETE = "Send message complete!";
+    THEMEREX_SEND_ERROR = "Transmit failed!";
+    THEMEREX_LOGIN_EMPTY = "The Login field can't be empty";
+    THEMEREX_LOGIN_LONG = "Too long login field";
+    THEMEREX_PASSWORD_EMPTY = "The password can't be empty and shorter then 5 characters";
+    THEMEREX_PASSWORD_LONG = "Too long password";
+    THEMEREX_PASSWORD_NOT_EQUAL = "The passwords in both fields are not equal";
+    THEMEREX_REGISTRATION_SUCCESS = "Registration success! Please log in!";
+    THEMEREX_REGISTRATION_FAILED = "Registration failed!";
+    THEMEREX_REGISTRATION_AUTHOR = "Your account is waiting for the site admin moderation!";
+    THEMEREX_GEOCODE_ERROR = "Geocode was not successful for the following reason:";
+    THEMEREX_GOOGLE_MAP_NOT_AVAIL = "Google map API not available!";
+    THEMEREX_NAVIGATE_TO = "Navigate to...";
+
+    // AJAX parameters
+    var THEMEREX_ajax_url = "127.0.0.1";
+    var THEMEREX_ajax_nonce = "ba259582be";
+
+    // Theme base url
+    var THEMEREX_theme_url = "http://hotelenmurcia.es/wp-content/themes/puzzles";
+</script>
+
+<form name="form1"  id="all_data" action=""  method="POST" name="review">
+    {% csrf_token %}
+<input type="hidden" name="c1" value="0" id="hab_form">
+<input type="hidden"  name="c2" value="0" id="hot_form">
+<input type="hidden"  name="c3" value="0" id="ubi_form">
+<input type="hidden"  name="c4" value="0" id="ser_form">
+<input type="hidden"  name="c5" value="0" id="cal_form">
+<input type="hidden"  name="avg_mark" value="0" id="avg_form">
+
+</form >
+
 
 </body>
 </html>

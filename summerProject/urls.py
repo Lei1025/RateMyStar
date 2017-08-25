@@ -19,7 +19,6 @@ from django.contrib import admin
 from rating import views
 from django.conf.urls.static import static
 from django.conf import settings
-from django.conf import settings
 from django.contrib.staticfiles import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
@@ -27,7 +26,10 @@ urlpatterns = [
     url(r'^', include('rating.urls', namespace='rating')),
 ]
 
-#urlpatterns += staticfiles_urlpatterns()
+#if settings.DEBUG:
+ #   urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+  #  urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
 if settings.DEBUG:
     urlpatterns += [
         url(r'^(?P<path>css.*)$', views.serve),
@@ -37,7 +39,7 @@ if settings.DEBUG:
         url(r'^(?P<path>font.*)$', views.serve),
         url(r'^(?P<path>a_data.*)$', views.serve),
     ]
-       # url(r'^css/(?P<path>.*)$', views.serve,{ 'document_root': '/static/css'}),
+# url(r'^css/(?P<path>.*)$', views.serve,{ 'document_root': '/static/css'}),
         #url(r'^js/(?P<path>.*)$', views.serve),
         #url(r'^images/(?P<path>.*)$', views.serve),
 

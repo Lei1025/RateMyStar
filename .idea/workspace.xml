@@ -2,10 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="932721f2-bf9a-41d7-9430-b781e5910b4c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/4467588-keira-knightley-wallpapers.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/Dan-Brown-enflamme-les-ecrans.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/Highest-Paid-Male-Models-TOP-10-16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/Neymar-da-Silva-Santos-Junior-wallpaper-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/Troye-Sivan-BN-Cover.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/cristiano-ronaldo-cr7-desktop-background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/df_cloud_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/georgerrmartin21280-24129-pmjpg-c74b85_1280w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/larastonecalvinklein.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/maxresdefault.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/o-ELLEN-DEGENERES-OSCARS-facebook.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/o-JK-ROWLING-facebook.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/banner/taylor_swift_big_announcements_feature.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/11031768_10153135051608926_1829404124679828441_o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/3-131-likes-jon-kortajarena-by-anthony-meyer-for-apollo-novo-2012-tux-_6NzQuU0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/3611a1aaa304a950f5016804126f3de3--george-rr-martin-martin-omalley.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/450313990.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/54969dd8c24693d05c8445c0de4ad74a719f1d65.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/92f5a813a8b3527ae9b31bfe4ce9bfa2--keira-knightley-style-girl-crushes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/Ellen-degeneres-on-pinterest.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/Lara-Stone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/bbf2a1f38322fdd5fb16efc77e2f25a0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/bddaded8-4451-4727-8b9f-beb420180302-1998x2040.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/c4ef1c5717f8e7f9d40d8ff0829d2d3a_XL.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/creative-process-.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/media/article/thumbnail/danbrown1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/static/images/logout-button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/images/logou-button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/Guia-completa-para-disfrutar-Murcia-portada-310x310.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/Hotel_La_Casa_Verde_Murcia-310x310.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/Hotel_Sercotel_JC1_Murcia-932x699.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/La_Casa_De_Lara_apartamento_Murcia-310x310.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/gplus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/hotel_murcia_logo_small2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/image_1_thumb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/image_2_thumb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/image_3_thumb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/linkedin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/pattern_1_thumb2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/pattern_2_thumb2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/pattern_3_thumb2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/pattern_4_thumb2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/pattern_5_thumb2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/pinterest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/migrations/0006_score_avg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/migrations/0007_auto_20170822_1936.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/_front.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/_reviews.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/_utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/analytics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/animation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/anti-spam-4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/comment-reply.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/css_002.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/draggable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/jquery-migrate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/jquery_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/jquery_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/jquery_004.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/jquery_005.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/jquery_006.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/jquery_007.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/mediaelement-and-player.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/mediaelementplayer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/mouse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/prettyPhoto.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/shortcodes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/skip-link-focus-fix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/social-share.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/superfish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/wp-embed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/review/review/wp-emoji-release.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rating/templates/upload.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rating/media/article/banner/22378232567_25fd5598a2_o-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rating/media/article/banner/katy-perry-witness-tgj-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rating/media/article/thumbnail/22339295890_a0bc1b8562_o.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rating/media/article/thumbnail/3x-copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rating/media/profile/21904516994_cd1cc5e863_o.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/admin.py" afterPath="$PROJECT_DIR$/rating/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/models.py" afterPath="$PROJECT_DIR$/rating/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/rating/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/static/css/style.css" afterPath="$PROJECT_DIR$/rating/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/index-content.html" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/index-content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/Puzzles/stars.html" afterPath="$PROJECT_DIR$/rating/templates/Puzzles/stars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/category.html" afterPath="$PROJECT_DIR$/rating/templates/category.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/css/bootstrap.css" afterPath="$PROJECT_DIR$/rating/templates/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/css/style.css" afterPath="$PROJECT_DIR$/rating/templates/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/detail.html" afterPath="$PROJECT_DIR$/rating/templates/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/forgotpassword.html" afterPath="$PROJECT_DIR$/rating/templates/forgotpassword.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/index.html" afterPath="$PROJECT_DIR$/rating/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/login.html" afterPath="$PROJECT_DIR$/rating/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/register.html" afterPath="$PROJECT_DIR$/rating/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/templates/review/review-widget.html" afterPath="$PROJECT_DIR$/rating/templates/review/review-widget.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/urls.py" afterPath="$PROJECT_DIR$/rating/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating/views.py" afterPath="$PROJECT_DIR$/rating/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/summerProject/settings.py" afterPath="$PROJECT_DIR$/summerProject/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/summerProject/urls.py" afterPath="$PROJECT_DIR$/summerProject/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +122,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/RateMyStar$Test__rating_templates_review_review_widget_old_html.coverage" NAME="Test: rating.templates.review.review-widget-old.html Coverage Results" MODIFIED="1503469834298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/RateMyStar$models.coverage" NAME="models Coverage Results" MODIFIED="1503444291274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rating" />
     <SUITE FILE_PATH="coverage/summerProject$Test__rating_templates_Puzzles_a_data_responsive_css.coverage" NAME="Test: rating.templates.Puzzles.a_data.responsive.css Coverage Results" MODIFIED="1502264847236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DatabaseView">
@@ -39,30 +147,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/models.py">
+      <file leaf-file-name="category.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rating/templates/category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="1783">
+              <caret line="142" column="51" lean-forward="true" selection-start-line="142" selection-start-column="51" selection-end-line="145" selection-end-column="29" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/summerProject/urls.py">
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/templates/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="194">
+              <caret line="91" column="30" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/tests.py">
+      <file leaf-file-name="index-content.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/index-content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="411" column="116" lean-forward="false" selection-start-line="411" selection-start-column="116" selection-end-line="411" selection-end-column="116" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hit-310x310.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/a_data/hit-310x310.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="star-trek-2-310x310.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/a_data/star-trek-2-310x310.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="star-trek-1-310x310.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/a_data/star-trek-1-310x310.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stars.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/stars.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="95" column="21" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="95" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="118" column="29" lean-forward="false" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/templates/upload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="105" column="95" lean-forward="false" selection-start-line="105" selection-start-column="95" selection-end-line="105" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/summerProject/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -71,85 +258,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="69" column="39" lean-forward="false" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="44" column="53" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forgotpassword.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/templates/forgotpassword.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stars.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/stars.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1042">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rating/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>user</find>
       <find>data</find>
+      <find>upload</find>
+      <find>datat</find>
+      <find>tool</find>
+      <find>serve</find>
+      <find>reviews_levels</find>
+      <find>http</find>
+      <find>post_reviews</find>
+      <find>THEMEREX_ajax_nonce</find>
+      <find>THEMEREX_ajax_url</find>
+      <find>comment</find>
+      <find>user</find>
+      <find>317</find>
+      <find>muy bien</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/rating/static</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,13 +294,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/rating/templates/footer.html" />
+        <option value="$PROJECT_DIR$/rating/templates/forgotpassword.html" />
+        <option value="$PROJECT_DIR$/rating/templates/register.html" />
         <option value="$PROJECT_DIR$/rating/admin.py" />
-        <option value="$PROJECT_DIR$/rating/models.py" />
-        <option value="$PROJECT_DIR$/summerProject/settings.py" />
-        <option value="$PROJECT_DIR$/rating/urls.py" />
-        <option value="$PROJECT_DIR$/rating/views.py" />
-        <option value="$PROJECT_DIR$/rating/templates/detail.html" />
+        <option value="$PROJECT_DIR$/rating/templates/12313.html" />
+        <option value="$PROJECT_DIR$/rating/templates/review/old.html" />
         <option value="$PROJECT_DIR$/summerProject/urls.py" />
+        <option value="$PROJECT_DIR$/summerProject/settings.py" />
+        <option value="$PROJECT_DIR$/rating/templates/index.html" />
+        <option value="$PROJECT_DIR$/rating/templates/upload.html" />
+        <option value="$PROJECT_DIR$/rating/templates/review/review.html" />
+        <option value="$PROJECT_DIR$/rating/templates/review/review-widget(1).html" />
+        <option value="$PROJECT_DIR$/rating/urls.py" />
+        <option value="$PROJECT_DIR$/rating/templates/login.html" />
+        <option value="$PROJECT_DIR$/rating/templates/Puzzles/stars.html" />
+        <option value="$PROJECT_DIR$/rating/models.py" />
+        <option value="$PROJECT_DIR$/rating/static/css/style.css" />
+        <option value="$PROJECT_DIR$/rating/templates/head.html" />
+        <option value="$PROJECT_DIR$/rating/templates/css/style.css" />
+        <option value="$PROJECT_DIR$/rating/templates/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/rating/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/rating/templates/review/review-widget.html" />
+        <option value="$PROJECT_DIR$/rating/views.py" />
+        <option value="$PROJECT_DIR$/rating/templates/category.html" />
+        <option value="$PROJECT_DIR$/rating/templates/detail.html" />
+        <option value="$PROJECT_DIR$/rating/templates/Puzzles/index-content.html" />
       </list>
     </option>
   </component>
@@ -180,11 +336,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="92" />
-    <option name="y" value="24" />
-    <option name="width" value="1440" />
-    <option name="height" value="805" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="722" />
+    <option name="width" value="718" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -234,6 +389,14 @@
               <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
               <item name="rating" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="thumbnail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
               <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,13 +410,27 @@
               <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
               <item name="rating" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="a_data" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
               <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
               <item name="rating" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
@@ -261,6 +438,13 @@
               <item name="rating" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="Puzzles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RateMyStar" type="462c0819:PsiDirectoryNode" />
+              <item name="rating" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RateMyStar" type="b2602c69:ProjectViewProjectNode" />
@@ -279,10 +463,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../css/style.css" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rating/media/article/thumbnail" />
+      <recent name="$PROJECT_DIR$/rating/static/css" />
+      <recent name="$PROJECT_DIR$/rating/templates/review/review" />
+      <recent name="$PROJECT_DIR$/rating/templates/review" />
+      <recent name="$PROJECT_DIR$/rating/templates/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/rating/static" />
+      <recent name="$PROJECT_DIR$/123" />
+      <recent name="$PROJECT_DIR$/rating/templates/review" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -297,17 +492,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index-content.html">
+  <component name="RunManager" selected="JavaScript Debug.category.html">
+    <configuration name="category.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RateMyStar/rating/templates/category.html" />
     <configuration name="detail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RateMyStar/rating/templates/detail.html" />
-    <configuration name="index-content.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RateMyStar/rating/templates/Puzzles/index-content.html" />
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.detail.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index-content.html" />
+    <configuration name="login.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RateMyStar/rating/templates/login.html" />
+    <configuration name="review-widget.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RateMyStar/rating/templates/review/review-widget.html" />
+    <configuration name="review-widget.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RateMyStar/rating/templates/review/review-widget.html" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.review-widget.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.detail.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.review-widget.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.category.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index-content.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.category.html" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.detail.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.review-widget.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.review-widget.html" />
       </list>
     </recent_temporary>
   </component>
@@ -350,39 +554,64 @@
       <option name="project" value="LOCAL" />
       <updated>1503329732756</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="url fixes">
+      <created>1503329753947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1503329753947</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test__rating_templates_review_review-widget-old_html - 2017.08.23 at 02h 30m 38s.xml">
+      <configuration name="Test: rating.templates.review.review-widget-old.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__rating_templates_review_review-widget-old_html - 2017.08.23 at 02h 30m 39s.xml">
+      <configuration name="Test: rating.templates.review.review-widget-old.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="92" y="24" width="1440" height="805" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30543932" sideWeight="0.5198556" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32394367" sideWeight="0.48853868" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34225354" sideWeight="0.491404" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34724092" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@summerProject" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225353" sideWeight="0.4801444" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676056" sideWeight="0.49713466" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3118741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19444445" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33978236" sideWeight="0.5171674" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32285368" sideWeight="0.48853868" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33978236" sideWeight="0.4828326" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3470375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@summerProject" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08464329" sideWeight="0.4801444" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32648125" sideWeight="0.49713466" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2725322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19384836" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32112676" sideWeight="0.52936965" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847223" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31801692" sideWeight="0.52936965" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761088" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32614556" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32614556" sideWeight="0.49713466" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -390,7 +619,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="url change" />
     <MESSAGE value="test detail url" />
-    <option name="LAST_COMMIT_MESSAGE" value="test detail url" />
+    <MESSAGE value="url fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="url fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -401,126 +631,96 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rating/templates/js/cropperjs/src/js/change.js" />
-    <entry file="file://$PROJECT_DIR$/rating/templates/images/1.jpg">
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/54969dd8c24693d05c8445c0de4ad74a719f1d65.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/base.py" />
-    <entry file="file://$PROJECT_DIR$/rating/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/review/review.html" />
-    <entry file="file://$PROJECT_DIR$/rating/templates/review/222.html" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_user" />
-    <entry file="file://$PROJECT_DIR$/rating/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/core/cache/backends/memcached.py" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_scores" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.sqlite_master" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_score" />
-    <entry file="file://$PROJECT_DIR$/rating/templates/123.html" />
-    <entry file="file://$PROJECT_DIR$/rating/templates/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="1464" column="3" lean-forward="false" selection-start-line="1464" selection-start-column="3" selection-end-line="1464" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/images/p1.png">
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/54969dd8c24693d05c8445c0de4ad74a719f1d65_zTM7b1u.jpeg" />
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3x-copy_5HdglXj.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/media/profile/21906042543_ee843f6ec7_o.jpg" />
-    <entry file="file://$PROJECT_DIR$/rating/media/profile/2016-08-19_030928.jpg" />
-    <entry file="file://$PROJECT_DIR$/rating/templates/b/showimg.html">
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/3x-copy.png" />
+    <entry file="file://$PROJECT_DIR$/rating/media/article/banner/katy-perry-witness-tgj-1_tV4mMcI.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/media/article/banner/katy-perry-witness-tgj-1.jpg" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="2865">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/media/media/article/banner/22378232567_25fd5598a2_o.jpg" />
-    <entry file="file://$PROJECT_DIR$/rating/templates/crop.html" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_article" />
-    <entry file="file://$PROJECT_DIR$/rating/templates/category.html">
+    <entry file="file://$PROJECT_DIR$/rating/templates/review/review-widget2.html" />
+    <entry file="file://$PROJECT_DIR$/rating/templates/review/review-widget-old.html" />
+    <entry file="file://$PROJECT_DIR$/rating/templates/review/old.html" />
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/11031768_10153135051608926_1829404124679828441_o.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summerProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2812">
-          <caret line="148" column="42" lean-forward="false" selection-start-line="148" selection-start-column="42" selection-end-line="148" selection-end-column="42" />
+        <state relative-caret-position="1860">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/review/Hotel Sercotel JC1 Murcia - hotelenmurcia.es _ Encuentra tu mejor hotel en Murcia.htm" />
+    <entry file="file://$PROJECT_DIR$/rating/templates/review/review-widget2222.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7320">
+          <caret line="488" column="49" lean-forward="false" selection-start-line="488" selection-start-column="49" selection-end-line="488" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summerProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/review/review/_front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1503514944000" expanded="true" signature="10901:10927" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rating/templates/review/review-widget.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9044">
-          <caret line="476" column="37" lean-forward="false" selection-start-line="476" selection-start-column="34" selection-end-line="476" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/b/uploadimg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/base_user.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/models.py" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_img" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.django_session" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.django_migrations" />
-    <entry file="file://$PROJECT_DIR$/rating/migrations/0001_initial.py" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_comment" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.auth_user" />
-    <entry file="das://table:/cbba7bc7/6d61a84b-0a30-4a2f-b6fd-e8e06aaa06ed/main.rating_r_user" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="239">
+          <caret line="455" column="0" lean-forward="true" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summerProject/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/rating/templates/12313.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summerProject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="122" column="51" lean-forward="false" selection-start-line="122" selection-start-column="51" selection-end-line="122" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summerProject/__init__.py">
+    <entry file="file://$PROJECT_DIR$/rating/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -536,73 +736,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/detail.html">
+    <entry file="file://$PROJECT_DIR$/rating/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="269">
+          <caret line="164" column="1" lean-forward="true" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/index-content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="63" column="93" lean-forward="false" selection-start-line="63" selection-start-column="93" selection-end-line="63" selection-end-column="93" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/rating/media/article/thumbnail/Lara-Stone.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="69" column="39" lean-forward="false" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="44" column="53" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/forgotpassword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/stars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1042">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/tests.py">
+    <entry file="file://$PROJECT_DIR$/rating/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -610,29 +757,226 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating/models.py">
+    <entry file="file://$PROJECT_DIR$/rating/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="372">
+          <caret line="28" column="66" lean-forward="false" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/review/review.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="565" column="55" lean-forward="false" selection-start-line="565" selection-start-column="51" selection-end-line="565" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/static/images/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/static/images/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/static/images/4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="63" column="27" lean-forward="false" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="317" column="1" lean-forward="true" selection-start-line="317" selection-start-column="1" selection-end-line="317" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/static/images/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="309" column="1" lean-forward="false" selection-start-line="309" selection-start-column="1" selection-end-line="309" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="941" column="1" lean-forward="false" selection-start-line="941" selection-start-column="1" selection-end-line="941" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="64" column="46" lean-forward="false" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rating/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/summerProject/urls.py">
+    <entry file="file://$PROJECT_DIR$/rating/templates/review/review-widget.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="237">
+          <caret line="436" column="74" lean-forward="false" selection-start-line="436" selection-start-column="74" selection-end-line="436" selection-end-column="74" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/forgotpassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summerProject/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="105" column="95" lean-forward="false" selection-start-line="105" selection-start-column="95" selection-end-line="105" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="91" column="30" lean-forward="false" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/stars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="95" column="21" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="95" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="118" column="29" lean-forward="false" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/a_data/star-trek-1-310x310.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/a_data/star-trek-2-310x310.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/a_data/hit-310x310.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/Puzzles/index-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="411" column="116" lean-forward="false" selection-start-line="411" selection-start-column="116" selection-end-line="411" selection-end-column="116" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/templates/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1783">
+          <caret line="142" column="51" lean-forward="true" selection-start-line="142" selection-start-column="51" selection-end-line="145" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
