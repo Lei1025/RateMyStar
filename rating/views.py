@@ -59,7 +59,7 @@ def user_login(request):
 @login_required(login_url='/login')
 def user_logout(request):
     logout(request)
-    return render(request,'index.html')
+    return HttpResponseRedirect('index.html')
 
 def index(request):
     content=Article.objects.all().order_by('?')[:8]
