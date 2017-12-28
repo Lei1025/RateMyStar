@@ -1,6 +1,6 @@
 # RateMyStar
 
-Public Internet link: http://lei6745.pythonanywhere.com/
+Live Demo Link: http://lei6745.pythonanywhere.com/
 
 Demonstration video: https://youtu.be/-idpnqSUwmk
 
